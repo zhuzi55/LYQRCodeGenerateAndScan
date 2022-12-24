@@ -1,0 +1,22 @@
+{
+  "name": "LYQRCodeGenerateAndScan",
+  "version": "0.1.0",
+  "summary": "A short description of LYQRCodeGenerateAndScan.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhuzi55/LYQRCodeGenerateAndScan",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhuzi55": "liyuzhu@wondersgroup.com"
+  },
+  "source": {
+    "git": "https://github.com/zhuzi55/LYQRCodeGenerateAndScan.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LYQRCodeGenerateAndScan/Classes/**/*"
+}

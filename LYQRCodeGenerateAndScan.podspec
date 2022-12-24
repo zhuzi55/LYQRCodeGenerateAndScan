@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYQRCodeGenerateAndScan'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of LYQRCodeGenerateAndScan.'
 
 # This description is used to generate tags and improve search results.
@@ -24,11 +24,11 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/zhuzi55/LYQRCodeGenerateAndScan'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhuzi55' => 'liyuzhu@wondersgroup.com' }
+  s.author           = { 'zhuzi55' => '' }
   s.source           = { :git => 'https://github.com/zhuzi55/LYQRCodeGenerateAndScan.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'LYQRCodeGenerateAndScan/Classes/**/*'
   

@@ -1,8 +1,8 @@
 //
 //  LYViewController.m
-//  LYQRCodeGenerateAndScan
+//  LYQRCodeScan
 //
-//  Created by zhuzi55 on 12/24/2022.
+//  Created by zhuzi55 on 12/23/2022.
 //  Copyright (c) 2022 zhuzi55. All rights reserved.
 //
 
@@ -17,13 +17,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    self.view.backgroundColor = [UIColor yellowColor];
+    [self creatUI];
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSLog(@"== touchesBegan");
+}
+
+-(void)creatUI{
+    
+    // 二维码生成
+    
+    // 二维码+条形码扫描 - 包含从相册识别二维码+条形码
+    
+    
 }
 
 @end

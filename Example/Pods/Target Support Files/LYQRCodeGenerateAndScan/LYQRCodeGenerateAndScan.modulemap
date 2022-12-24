@@ -1,0 +1,6 @@
+framework module LYQRCodeGenerateAndScan {
+  umbrella header "LYQRCodeGenerateAndScan-umbrella.h"
+
+  export *
+  module * { export * }
+}

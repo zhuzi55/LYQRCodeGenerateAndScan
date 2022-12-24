@@ -1,0 +1,16 @@
+PODS:
+  - LYQRCodeGenerateAndScan (0.1.0)
+
+DEPENDENCIES:
+  - LYQRCodeGenerateAndScan (from `../`)
+
+EXTERNAL SOURCES:
+  LYQRCodeGenerateAndScan:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYQRCodeGenerateAndScan: e95270de2f7b7b02ca84658aa643b5d1ee85f923
+
+PODFILE CHECKSUM: e97a31d5e393ff94b70b811d480d61fdc823c919
+
+COCOAPODS: 1.11.2
