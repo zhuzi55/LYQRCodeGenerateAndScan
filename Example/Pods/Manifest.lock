@@ -1,15 +1,22 @@
 PODS:
-  - LYQRCodeGenerateAndScan (0.1.0)
+  - LBXZBarSDK (1.3.5)
+  - LYQRCodeGenerateAndScan (0.0.1):
+    - LBXZBarSDK (~> 1.3.5)
 
 DEPENDENCIES:
   - LYQRCodeGenerateAndScan (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - LBXZBarSDK
 
 EXTERNAL SOURCES:
   LYQRCodeGenerateAndScan:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LYQRCodeGenerateAndScan: e95270de2f7b7b02ca84658aa643b5d1ee85f923
+  LBXZBarSDK: db826d1265fbb4fbdbb2f30d7d1e96142e32bfff
+  LYQRCodeGenerateAndScan: f2513a4c632a6a644dfdffddf455befa6eccdaf1
 
 PODFILE CHECKSUM: e97a31d5e393ff94b70b811d480d61fdc823c919
 

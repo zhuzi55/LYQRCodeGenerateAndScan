@@ -1,0 +1,6 @@
+framework module LBXZBarSDK {
+  umbrella header "LBXZBarSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

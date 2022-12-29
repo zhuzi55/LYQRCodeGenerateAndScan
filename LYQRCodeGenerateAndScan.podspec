@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYQRCodeGenerateAndScan'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of LYQRCodeGenerateAndScan.'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LYQRCodeGenerateAndScan/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'LYQRCodeGenerateAndScan' => ['LYQRCodeGenerateAndScan/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'LYQRCodeGenerateAndScan' => ['LYQRCodeGenerateAndScan/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'LBXZBarSDK', '~> 1.3.5'
 end

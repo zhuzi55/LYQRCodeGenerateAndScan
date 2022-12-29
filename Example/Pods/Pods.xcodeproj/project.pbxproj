@@ -7,87 +7,348 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		056780E34F68D4DA30E56A530C0E33CA /* qr_finder.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F378D4C6D0EFE4BFCE3C3BCF69C51A4 /* qr_finder.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		0960C8432056AED7325E37535C8D240E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58A2B7CD52782455A6496B5F981A886 /* Foundation.framework */; };
+		0A7E86BE0F33B1ADE952827F17DCB969 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEC872461AA60995508741D8EB7C4C0 /* QuartzCore.framework */; };
+		0E4CD48E0CAFF9C55E08FE84B26EDA99 /* qrdectxt.c in Sources */ = {isa = PBXBuildFile; fileRef = B8956E196532123A6AFCD79149935CB7 /* qrdectxt.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		105A9D40E5BF833B3498FD890EEC28CA /* ZBarSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B3DA3857CC694D009ECB28BD51D220 /* ZBarSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13C349C6C9D5EC8C942329D9D0167E74 /* code128.c in Sources */ = {isa = PBXBuildFile; fileRef = C1342269F791420E3B04D7B378165FEF /* code128.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		15CFA10E97872423FF9E90814B279F94 /* img_scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = C74074E5DB3CB470A95973F718941479 /* img_scanner.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		17BDE8870C986B09183C94D5F3F1FC18 /* pdf417.h in Headers */ = {isa = PBXBuildFile; fileRef = 9264B6891E695255DEA46B0277461F7E /* pdf417.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		184F9534B57F56329CCB098EACF3FF01 /* ZBarImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428F326BB97549ED7317E46D0BD5D0D /* ZBarImage.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		18E2F61971EF374531549C86A5E6680A /* isaac.c in Sources */ = {isa = PBXBuildFile; fileRef = 344443957D29E2B0F939408F479446B4 /* isaac.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		19719CCCEF1BF9666E8437185554C590 /* codabar.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F00EB67806C9C260E0E7853CB736D53 /* codabar.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		198A2949AD7E42B76878814883D68DA7 /* LYQRCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC4453A630E894BF6540558D6BD6492 /* LYQRCodeManager.m */; };
+		1A960D617BE3F839BBBB143622EFB33B /* ZBarReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3ADE512E8100AEEA7107932A8FB88A8 /* ZBarReaderView.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		1DB6A1A513D566CDCF82A2EC9CE978EB /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DADE81194B64DC660B77F5414176A /* symbol.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		20ED132B514A765DD4DE59CD1D6D65CC /* qrdec.c in Sources */ = {isa = PBXBuildFile; fileRef = 21BD0E5DC596BC679340CA46D6395DA3 /* qrdec.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		2239815DDC9F20982C24D1B5F6C76FB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58A2B7CD52782455A6496B5F981A886 /* Foundation.framework */; };
+		22C0F219AF61E4E20158759657D96DA2 /* ly_scannerAnimationLine_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30CD2FB0C4C93169F2B19014B0C27E7 /* ly_scannerAnimationLine_icon@2x.png */; };
+		234A025AD23AF2E0C888B3A757DEE51E /* LBXZBarWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4E17CB3E54436BFCAD71F08F9D9D42 /* LBXZBarWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23AB6465DF1C1E4DF47B75E3AA3B7E60 /* ZBarSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 44297C2F1ADF7FC9261AE9EF7C4EAF44 /* ZBarSymbol.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
 		248D3444FAF52FE1A4FA51136F125E99 /* Pods-LYQRCodeGenerateAndScan_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6934A24C8982F04D977DE64DE6068272 /* Pods-LYQRCodeGenerateAndScan_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E081C62949105F796D9645AE066FD89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		86AAE5E33BB27E38F78274B704CB7398 /* LYQRCodeGenerateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 634FE7643DCEBC363BB84477A0EEEFF2 /* LYQRCodeGenerateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95708FB5FF8D4A1B6777A3AFF500D651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B96EE259468FDBBD330BE58E9ACFEF26 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7ECD137CD03C43C23FD66A4E4EFD0 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m */; };
-		BBE66AC98933C65F2C1A27102619621D /* LYQRCodeGenerateAndScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E947667D10F788A918A2C12E15276CB /* LYQRCodeGenerateAndScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9BF3C238CE52F1E332524CB348ED09B /* LYQRCodeGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E40A0FF70D3666185889378784373 /* LYQRCodeGenerateManager.m */; };
-		D9EA2CD2697371800883EDE8BD0CE922 /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B79B53D977CF2081F5EA8126D1C4CD /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB3613FB5F8C05793AB0E8FBE657124B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E81DF2F7DAC16EA8D2D22ED08761E196 /* LYQRCodeGenerateAndScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B04B84CA3B569F15F9DF961B3D0556EA /* LYQRCodeGenerateAndScan-dummy.m */; };
+		286480ADA5C8EFD4C3F232E2EF8268DE /* LYQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF155CBE4032818AA61914B5607682 /* LYQRCodeViewController.m */; };
+		298CDB4BB74DC5550C685C3BA55977B3 /* ZBarImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7687BB3D0D5847FED849CFCE34702EC1 /* ZBarImageScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B5F85511EEC70EB46A6D8B90ED750B2 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = FA7FC0809EB6604C49880ED3CC2E4890 /* config.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		2E351007C426DFA038D719B41F770512 /* code93.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E382F05FB94A7BFD11C75471C00CABC /* code93.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E983DB7459F7838A927901F5695AEB9 /* databar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD14D9276AA37A26907AC091F3F7C38 /* databar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F212C4CC0B5D710692FD4611434661A /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2C9A003EF77D1E03143B34964974A7 /* debug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32483B0EAA5F4C919E04427FA86B565C /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = AC65297EDC06CA213D22499C9DFE80D4 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34FDB507C1EF046E331E0D8A9143C461 /* LYQRCodeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC8DB2293ADFB49BB01551960CF5249 /* LYQRCodeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		358FA919539B8931D1A9381B5ACC6835 /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C7A82DDEBB54546D7DEC3F24D9A091 /* mutex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36C029D90EC78E24849C97E9E26AE8B8 /* qr_finder.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C873F8C17E9618020CFD84B72216B0 /* qr_finder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		397058EC1BE97FD97F5E3BDD04F517E7 /* pdf417_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6CC788DBB04AFC7B98594CE5C5F1B1 /* pdf417_hash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C8AABC103F6E19186A906848AC27118 /* img_scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = D3986E38B2B9CA20F522AA4FFC0BBED0 /* img_scanner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D7B51BA42683F5F69809CEAE740E9D1 /* code39.c in Sources */ = {isa = PBXBuildFile; fileRef = 5022EC6659BD83ED3A5FF5D9BE858332 /* code39.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		3DC5A209ADF4A0A1D0A46E63315FB895 /* ZBarReaderViewImpl_Simulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3491591BCC32187C02FF4288F892BEFE /* ZBarReaderViewImpl_Simulator.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		408286AAB5DD44DD27A0146E4B18147A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C0112D0F3BB69DBF276CCD7EB3083C /* CoreGraphics.framework */; };
+		458156CF1FE1545362CD31AE3F4C4571 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE5332555443111AAB81182B5DE5766 /* CoreMedia.framework */; };
+		468CEEC639A8244C6C58BBECFCE69467 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E8E38E15319F550146D2CF73FA751D /* AVFoundation.framework */; };
+		47926098905089FC15AC3AE03CECCAF2 /* databar.c in Sources */ = {isa = PBXBuildFile; fileRef = 4479E1FF236B2C03012D23D88A6EF9D7 /* databar.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		4800C2D6EBC8C899540638C4FE9CFAA3 /* ZBarCaptureReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 404383040128A6F0C0C67A6A26753D7F /* ZBarCaptureReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4861B312C78E28EAC57462D7570AB6FB /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 097AB345D83F6B6ADFFFED4145C70FD8 /* scanner.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		4E95220F6637A081AA1322D3ACD9FFD0 /* LYScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CC35CD9CF3EAEE659EFBE66F76FCF /* LYScannerView.m */; };
+		51BA724C50D1DD12E6954421D26DF6E4 /* bch15_5.c in Sources */ = {isa = PBXBuildFile; fileRef = F353167C9943CCFF98456D097CCED521 /* bch15_5.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		54C5840D2C1C7F72D9C0E22626E8F7FC /* qrcode.h in Headers */ = {isa = PBXBuildFile; fileRef = BEBE12C5C72962AA77A2EDDCFF318BC9 /* qrcode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58C5857B8F446018092A21B80DB52361 /* ly_flashlight_On_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEF7573B2902DDD1DE9E8318BA440E89 /* ly_flashlight_On_icon@3x.png */; };
+		6A2A360C34DE53AFCB3A9ED493B0FEE8 /* svg.h in Headers */ = {isa = PBXBuildFile; fileRef = E571E8DD6647B5E6A14624E63E3D64D3 /* svg.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AB8154BC0C3666DBCEF3A6855E43ECE /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC8642020841A27E9F4A3EEEA90C605 /* zbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		705A2F8DE7FD7FFE523D4E28C232C598 /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = CBE9A44E62873D3C7240CCB7D94F8B25 /* rs.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		7079BE16D1E467D541CBC5FF87CF526F /* processor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9501DF99D0C1406314AC22A20307385B /* processor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		728FD8A44B1B1FD028DE6CD2B118281D /* LYQRCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C833142958F0C2D02A3C2B4EDDE186A7 /* LYQRCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72CCFD5DA21906591C6C089898D33B85 /* video.h in Headers */ = {isa = PBXBuildFile; fileRef = 3877C915BC454280E5C0C8429C6A3E52 /* video.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		736A15431F46F20FD425E278D96E45A7 /* ZBarReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66960788D5AED13249A204B4FB020F7F /* ZBarReaderViewController.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		74488B24772000F3BEF52BD056B98D63 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 416741567422BF871B647381D46EA3A3 /* util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75C92C4E55ACC056FCEA9155D6F563BB /* i25.c in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C363AA558BA112A086AC82053DDC1 /* i25.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		760B70D54B2E3D351B2BDFD8366DBD91 /* LYQRCodeGenerateAndScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 593838A0A6194BC837A2AEAACEF37E12 /* LYQRCodeGenerateAndScan-dummy.m */; };
+		7BEB9A75E18AE3334BF384BA2DA69C9F /* ZBarCameraSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C43A7ACBEDDDF2293D83B013BC542BF /* ZBarCameraSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		865C0CB1233CC621A4CCA2F46E180734 /* LYQRCodeGenerateAndScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C39E84F55D752E91B550D524798B4D /* LYQRCodeGenerateAndScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8665A4B1CAE8F9C1C666C07402BE92E3 /* ZBarReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = A1ABF5506F7601C0401610BB2EF72643 /* ZBarReaderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2C16BCCF6FDEDD965D193F02BA0DA7 /* LBXZBarWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A62CF2BB5A324231B518EAF2BF54E041 /* LBXZBarWrapper.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		8E582028EBC19273D07B076E7F89C23E /* code93.c in Sources */ = {isa = PBXBuildFile; fileRef = 92533A45CAE0FE8929D71AFE96B61B96 /* code93.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		918856AC8467B5CE57DECC06B750A171 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF4AA7A0B6C8749C03FF095A22D712A /* debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91F538F639AB4950893F83D57076FABF /* ly_flashlight_On_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F23432E047B1AFAFA27A33247D8F62A /* ly_flashlight_On_icon@2x.png */; };
+		92B8250A69A4CBB9CEB5F85F76587328 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan in Resources */ = {isa = PBXBuildFile; fileRef = 86457802EBA6448C1502DF5E0ED68238 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan */; };
+		94AF7FBDECBA18986B09D5BE952B866A /* x.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8545359A56B5C6C48BF9999AC5C9C1 /* x.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95708FB5FF8D4A1B6777A3AFF500D651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58A2B7CD52782455A6496B5F981A886 /* Foundation.framework */; };
+		966D0485223481B95BBD8AD9E2DE9488 /* ly_scannerNavBack_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4FD614BC594E7D711DE1BFAA91973E /* ly_scannerNavBack_icon@2x.png */; };
+		9965B536AB49073DDE38A753B012A25E /* binarize.h in Headers */ = {isa = PBXBuildFile; fileRef = C54FBC3E40701F541269786174B28CEB /* binarize.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		999F3D016EA13677041C2DCADA422E19 /* posix.h in Headers */ = {isa = PBXBuildFile; fileRef = 1066AD78AB65F3958731074B2DB2DDB4 /* posix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B80BD74216D619724037DA52A9F5637 /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0E094131868D855BCF95A5C9585B61 /* ZBarSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C829E9ABB8523B3324E75C88FA7D3FE /* LBXZBarSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4611FF7E7FBA575ABF15FAD022149 /* LBXZBarSDK-dummy.m */; };
+		9E1584235FD72E881E069D945CF129EC /* ly_scannerAnimationLine_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DC719009D6E4041546E319838F8E06A /* ly_scannerAnimationLine_icon@3x.png */; };
+		A1CC9AC21CFC36EFEC27679D0534DF8C /* refcnt.h in Headers */ = {isa = PBXBuildFile; fileRef = 713B8AEC32CD6AC3DEFD09B312A6156D /* refcnt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A238BEF4916426B5307B033CB12B578E /* i25.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A6E88C70CE34254C79F6E28584985E /* i25.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4D3CD3ECBA8AA9F84E27AB7DFE7CE91 /* ZBarReaderViewImpl_Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = 324D8C578EA14A806A9E4B33B15ACCAA /* ZBarReaderViewImpl_Capture.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		A69A54461A0A407DBC7DDD142421376B /* LBXZBarSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFE43E0FE71F1F9E72C61E8ED9669DF /* LBXZBarSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6EE8737607CB9ECA969F0923B73EBE8 /* win.h in Headers */ = {isa = PBXBuildFile; fileRef = 230ABDC2C147AFC43717AF74B04DDEDA /* win.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9F5F53DA05CF11900DD469E5BB67698 /* ean.h in Headers */ = {isa = PBXBuildFile; fileRef = D05B2C982D7EF83DC88F4134D8C0B025 /* ean.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ABDE360008643AC9ED5255190DC11B38 /* code128.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A077EE7305CE5B7BCB8D51F30777480 /* code128.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACC50077B202DF916FA85F52ADA2DA4B /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = 399D59EFBEB8844E65CE3A99E55CFF9A /* event.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD027292EF6799C7BBC144154C3DC584 /* ZBarCameraSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C244AD3F39B2D89BBCFA4ECF7FDF00 /* ZBarCameraSimulator.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		ADF651BF54B367B451E857DCB6DE3F68 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7ECD137CD03C43C23FD66A4E4EFD0 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m */; };
+		B3DAB0C8D36BEF5CA4499ACE76DF9284 /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = CBACB8EB9ADA804581ED60F692EF948E /* image.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B457F91FE8354C18D719037F56A5EE6B /* LYQRCodeGenerateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE41546456977CBFB5F17E429B52208 /* LYQRCodeGenerateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8916BE11861BC8E94EF351976A0674 /* LYScannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 764D4E7A881CB7ED0CF90B2488CE337E /* LYScannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C25FC05F2E0FDB4C57F123FAE75BC45C /* codabar.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A64C36495404128C1FBC43FE728CE1 /* codabar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2A0F9C96FFBA1340A352503BBB8D9E6 /* ZBarReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD17444409887E9FBCDAEA956D26713 /* ZBarReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2A94643EA6881D8A9040186AFB690C1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B958E4CB2233CA006919836C9186C3 /* CoreVideo.framework */; };
+		C78028BA86ACE103C59FDACED84C03A0 /* LYQRCodeGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5142CDEF4489A875616D2AB7B3385 /* LYQRCodeGenerateManager.m */; };
+		C9B3EA39AD18A916F096FA9DC3F0FD0F /* ean.c in Sources */ = {isa = PBXBuildFile; fileRef = BF5E9D2E041B071D241DD1D32DD5DBF9 /* ean.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		CAD7063439746DDFDA93FAB3C5F30E08 /* ZBarImageScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0192D9DE05342E7C590DFA35766309FE /* ZBarImageScanner.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		CB199CC45A58FCE4B99B33DF11680E93 /* ZBarReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = A03DDC41BE10683FD46AABD2B21C964C /* ZBarReaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBE8D9B39018926B3BC24315AF399F1E /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E3678BA6CB2EE481BBC3F45BFC43CA /* timer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CEBEBDB97853C4887DF4A389A9B9E652 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 3353A42B5F9569E04DC14F078BB3476A /* util.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		CF9E8331B7AAF517E163606E48FBEF14 /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F04D3EDFA4DD9CBCAD641D9D15E8B78B /* decoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CFE7DA660BFBB2DC40F6973BA970FF01 /* binarize.c in Sources */ = {isa = PBXBuildFile; fileRef = E35A29310F76972949D54654FB437883 /* binarize.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		D05F4F0919AE087BBB76CAC7DEAB961F /* code39.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5D35270CE5C8E9A66BADA159D9F822 /* code39.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1738C6491BFE7D3BC05878753F9B398 /* rs.h in Headers */ = {isa = PBXBuildFile; fileRef = 058484184BF820895C052328AA0CCE15 /* rs.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D198CBB0B42A2A029E87AC38AEFC40B8 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = F96003350A4816BD06908B12260952DA /* image.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		D1FC4124FAEBABCC9FF30DEDBBBC2A7F /* ZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9940E466CF8718A679880D007EF37143 /* ZBarImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2CE243E86EB0E6D15EB0837D7B475E8 /* isaac.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE018E6852852B353B742ADF6B60302 /* isaac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB3CB2531ACCCE4A73AF7F075D6AEC3C /* ly_flashlight_Off_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4437B0DA8D092D20F4B424A9D390DC79 /* ly_flashlight_Off_icon@3x.png */; };
+		DDB7BFC3BBA443D5E056E955B41709B3 /* ZBarReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E361AAB066FECBE7233DC8FD9C71601 /* ZBarReaderController.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		E2A4DE70BC84839EC64E367BAFC87064 /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FEE7E784239D81DA3C288F20886684 /* window.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E57CCFBB6632BB7528C8C71A44628462 /* qrdec.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA0FC9ED94631841D4692191FC948C3 /* qrdec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E806AE0C70318E9569E9DB8DFECBA817 /* bch15_5.h in Headers */ = {isa = PBXBuildFile; fileRef = 471D4D351DFD558FDE6EB79E468ED922 /* bch15_5.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA3364BF54F95D5838EAD336FEB5E7FF /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = E3B22D1364321837DE93BD6A33A0B00A /* decoder.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		EC938CCA3C4AF1ADDE7E6B24372F47B8 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = E866BBCA6AC6DE0FC27858FBA6A91FB3 /* thread.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED5C14285E68A1FC46E79A57104BA563 /* ly_scannerNavBack_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A526BBE632AC724A9FF33774D2376C6 /* ly_scannerNavBack_icon@3x.png */; };
+		EDD74CD846D62BE022F3F09E4F91F649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58A2B7CD52782455A6496B5F981A886 /* Foundation.framework */; };
+		F05050A6D67E5FE35B407959EBFFF61F /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 38428361EF8A8FE67B93C7492D53544C /* error.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		F0B2A224AEA2D980C6C1C750B808D522 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC88595628C0C64593FC0C4AAEC15F2 /* error.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0FF38C0FA29815D58F8DA8E20E4FA53 /* symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 266D18134C701DA2EF2961242FA7842B /* symbol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F206CE2906581C72D8B04FE20F72BEB5 /* ly_flashlight_Off_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 255F241CB15F06497EDC68A1CAFBA0DD /* ly_flashlight_Off_icon@2x.png */; };
+		F33297E0C8B540C78A91386F40E107F3 /* refcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = 9212B7A2D5EF5B48777FF3C2BC691765 /* refcnt.c */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		F6BE12888ADB6BB278ACA00AEDD7188F /* ZBarCVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B37D923B5325D1E4F6093F69F70009 /* ZBarCVImage.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		FA1AE9B72368E04FEEEBF858E95CF56C /* ZBarCaptureReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C48B9B9A97E68FAAA238D33D7F7A6DF /* ZBarCaptureReader.m */; settings = {COMPILER_FLAGS = "-w -fno-objc-arc"; }; };
+		FAF5F2E0F6DA44E942DB906CFADA4252 /* ZBarCVImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F4F5E3E2AB791E31AF82B7D08C7F85 /* ZBarCVImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB0F906AB7BAAAF1591AF9A65680D752 /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B79B53D977CF2081F5EA8126D1C4CD /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD8E1A44E6AD264064C82178EA2ED6FC /* Pods-LYQRCodeGenerateAndScan_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A93484D9287F5E1D78D6585EC58D26 /* Pods-LYQRCodeGenerateAndScan_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4DD1CC01C729CBF27D38AF1C0835816A /* PBXContainerItemProxy */ = {
+		0F45C86C70A2AD221C9B550BC6279E4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 625883D85B319A437040ABC45C84A031;
-			remoteInfo = LYQRCodeGenerateAndScan;
+			remoteGlobalIDString = 07847B1685BB34DA16CBED81BE79F345;
+			remoteInfo = LBXZBarSDK;
 		};
-		BA266DBDEC3EA4C1122B462C1B441AC6 /* PBXContainerItemProxy */ = {
+		31F2B3404AB910156FCA168DD4C03544 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6D53629885A3535C02867A207859EFBD;
 			remoteInfo = "Pods-LYQRCodeGenerateAndScan_Example";
 		};
+		514AC1C6225024D093C408F45F6AB464 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E2DECF70F60EBB03BBFFF437F603F07;
+			remoteInfo = "LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan";
+		};
+		58A0093AE71F0665F94801F7A130ECC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07847B1685BB34DA16CBED81BE79F345;
+			remoteInfo = LBXZBarSDK;
+		};
+		B40C6CCC906495B953DC7F89DB4AB2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625883D85B319A437040ABC45C84A031;
+			remoteInfo = LYQRCodeGenerateAndScan;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0192D9DE05342E7C590DFA35766309FE /* ZBarImageScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarImageScanner.m; path = iphone/ZBarImageScanner.m; sourceTree = "<group>"; };
 		01B0FA0F91510C1058A6A3939B97985E /* LYQRCodeGenerateAndScan */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYQRCodeGenerateAndScan; path = LYQRCodeGenerateAndScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		02E999A2FF7105067FDB20FC04DCEB4D /* LYQRCodeGenerateAndScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYQRCodeGenerateAndScan.modulemap; sourceTree = "<group>"; };
+		02E8E38E15319F550146D2CF73FA751D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		032853B36D60B5ABBFBF429AB5447EC6 /* Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0388D7B77D15DDB4F4C385B9FF5374AF /* LYQRCodeGenerateAndScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYQRCodeGenerateAndScan-prefix.pch"; sourceTree = "<group>"; };
+		0428F326BB97549ED7317E46D0BD5D0D /* ZBarImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarImage.m; path = iphone/ZBarImage.m; sourceTree = "<group>"; };
+		058484184BF820895C052328AA0CCE15 /* rs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rs.h; path = zbar/qrcode/rs.h; sourceTree = "<group>"; };
+		097AB345D83F6B6ADFFFED4145C70FD8 /* scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; name = scanner.c; path = zbar/scanner.c; sourceTree = "<group>"; };
+		0A9CD660A5F2E7E7357FBD9CD2ABA291 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F4531FA7C8A68C55BE45271AAF53DBA /* LBXZBarSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBXZBarSDK; path = LBXZBarSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1066AD78AB65F3958731074B2DB2DDB4 /* posix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = posix.h; path = zbar/processor/posix.h; sourceTree = "<group>"; };
+		14C08ED54FED56E59E42365143866527 /* LYQRCodeGenerateAndScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYQRCodeGenerateAndScan.release.xcconfig; sourceTree = "<group>"; };
+		153A1EA698D6DC6AA3BBFE3185C65F8B /* LYQRCodeGenerateAndScan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYQRCodeGenerateAndScan-Info.plist"; sourceTree = "<group>"; };
+		15C873F8C17E9618020CFD84B72216B0 /* qr_finder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qr_finder.h; path = zbar/decoder/qr_finder.h; sourceTree = "<group>"; };
+		1AC4453A630E894BF6540558D6BD6492 /* LYQRCodeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYQRCodeManager.m; path = LYQRCodeGenerateAndScan/Classes/LYQRCodeManager.m; sourceTree = "<group>"; };
+		1D18222266F7485D775B5435E149A57A /* LYQRCodeGenerateAndScan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LYQRCodeGenerateAndScan.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F23432E047B1AFAFA27A33247D8F62A /* ly_flashlight_On_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ly_flashlight_On_icon@2x.png"; path = "LYQRCodeGenerateAndScan/Assets/ly_flashlight_On_icon@2x.png"; sourceTree = "<group>"; };
+		20E4611FF7E7FBA575ABF15FAD022149 /* LBXZBarSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBXZBarSDK-dummy.m"; sourceTree = "<group>"; };
+		21BD0E5DC596BC679340CA46D6395DA3 /* qrdec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = qrdec.c; path = zbar/qrcode/qrdec.c; sourceTree = "<group>"; };
+		22E7E0A20636225B5BD13B83915583A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		230ABDC2C147AFC43717AF74B04DDEDA /* win.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = win.h; path = zbar/window/win.h; sourceTree = "<group>"; };
+		255F241CB15F06497EDC68A1CAFBA0DD /* ly_flashlight_Off_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ly_flashlight_Off_icon@2x.png"; path = "LYQRCodeGenerateAndScan/Assets/ly_flashlight_Off_icon@2x.png"; sourceTree = "<group>"; };
+		266D18134C701DA2EF2961242FA7842B /* symbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symbol.h; path = zbar/symbol.h; sourceTree = "<group>"; };
+		2F00EB67806C9C260E0E7853CB736D53 /* codabar.c */ = {isa = PBXFileReference; includeInIndex = 1; name = codabar.c; path = zbar/decoder/codabar.c; sourceTree = "<group>"; };
+		324D8C578EA14A806A9E4B33B15ACCAA /* ZBarReaderViewImpl_Capture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarReaderViewImpl_Capture.m; path = iphone/ZBarReaderViewImpl_Capture.m; sourceTree = "<group>"; };
+		32E3678BA6CB2EE481BBC3F45BFC43CA /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timer.h; path = zbar/timer.h; sourceTree = "<group>"; };
+		3353A42B5F9569E04DC14F078BB3476A /* util.c */ = {isa = PBXFileReference; includeInIndex = 1; name = util.c; path = zbar/qrcode/util.c; sourceTree = "<group>"; };
+		344443957D29E2B0F939408F479446B4 /* isaac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = isaac.c; path = zbar/qrcode/isaac.c; sourceTree = "<group>"; };
+		3491591BCC32187C02FF4288F892BEFE /* ZBarReaderViewImpl_Simulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarReaderViewImpl_Simulator.m; path = iphone/ZBarReaderViewImpl_Simulator.m; sourceTree = "<group>"; };
 		36276470BF6A9BB239E5A998079A9A31 /* Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig"; sourceTree = "<group>"; };
+		38428361EF8A8FE67B93C7492D53544C /* error.c */ = {isa = PBXFileReference; includeInIndex = 1; name = error.c; path = zbar/error.c; sourceTree = "<group>"; };
+		3877C915BC454280E5C0C8429C6A3E52 /* video.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = video.h; path = zbar/video.h; sourceTree = "<group>"; };
+		399D59EFBEB8844E65CE3A99E55CFF9A /* event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = event.h; path = zbar/event.h; sourceTree = "<group>"; };
+		39B958E4CB2233CA006919836C9186C3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		39C39E84F55D752E91B550D524798B4D /* LYQRCodeGenerateAndScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYQRCodeGenerateAndScan-umbrella.h"; sourceTree = "<group>"; };
+		3AEC872461AA60995508741D8EB7C4C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		404383040128A6F0C0C67A6A26753D7F /* ZBarCaptureReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBarCaptureReader.h; path = iphone/include/ZBarSDK/ZBarCaptureReader.h; sourceTree = "<group>"; };
+		416741567422BF871B647381D46EA3A3 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = util.h; path = zbar/qrcode/util.h; sourceTree = "<group>"; };
+		44297C2F1ADF7FC9261AE9EF7C4EAF44 /* ZBarSymbol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarSymbol.m; path = iphone/ZBarSymbol.m; sourceTree = "<group>"; };
+		4437B0DA8D092D20F4B424A9D390DC79 /* ly_flashlight_Off_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ly_flashlight_Off_icon@3x.png"; path = "LYQRCodeGenerateAndScan/Assets/ly_flashlight_Off_icon@3x.png"; sourceTree = "<group>"; };
+		4479E1FF236B2C03012D23D88A6EF9D7 /* databar.c */ = {isa = PBXFileReference; includeInIndex = 1; name = databar.c; path = zbar/decoder/databar.c; sourceTree = "<group>"; };
+		46533AA4780D6BEB9E7B7DEFCFEA2F4B /* LYQRCodeGenerateAndScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYQRCodeGenerateAndScan.modulemap; sourceTree = "<group>"; };
+		471D4D351DFD558FDE6EB79E468ED922 /* bch15_5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bch15_5.h; path = zbar/qrcode/bch15_5.h; sourceTree = "<group>"; };
+		47F0B6E577D1EEA31A90EC48CD26BF4D /* LBXZBarSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBXZBarSDK.modulemap; sourceTree = "<group>"; };
 		48A1E2F763A5AE9C7F607D28826E023E /* Pods-LYQRCodeGenerateAndScan_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYQRCodeGenerateAndScan_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4AE7ECD137CD03C43C23FD66A4E4EFD0 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYQRCodeGenerateAndScan_Example-dummy.m"; sourceTree = "<group>"; };
-		4E947667D10F788A918A2C12E15276CB /* LYQRCodeGenerateAndScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYQRCodeGenerateAndScan-umbrella.h"; sourceTree = "<group>"; };
+		4B5D35270CE5C8E9A66BADA159D9F822 /* code39.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = code39.h; path = zbar/decoder/code39.h; sourceTree = "<group>"; };
+		4CBF155CBE4032818AA61914B5607682 /* LYQRCodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYQRCodeViewController.m; path = LYQRCodeGenerateAndScan/Classes/LYQRCodeViewController.m; sourceTree = "<group>"; };
+		4E4C363AA558BA112A086AC82053DDC1 /* i25.c */ = {isa = PBXFileReference; includeInIndex = 1; name = i25.c; path = zbar/decoder/i25.c; sourceTree = "<group>"; };
+		4EE018E6852852B353B742ADF6B60302 /* isaac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = isaac.h; path = zbar/qrcode/isaac.h; sourceTree = "<group>"; };
+		5022EC6659BD83ED3A5FF5D9BE858332 /* code39.c */ = {isa = PBXFileReference; includeInIndex = 1; name = code39.c; path = zbar/decoder/code39.c; sourceTree = "<group>"; };
+		50B3DA3857CC694D009ECB28BD51D220 /* ZBarSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBarSDK.h; path = iphone/include/ZBarSDK/ZBarSDK.h; sourceTree = "<group>"; };
 		534B23356A21737D71D8332D99C7CCBA /* Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		554BEA56A63C2CCC8D7A629DFC1572CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5576C0347220147C2DC5F322740DF3EC /* LYQRCodeGenerateAndScan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LYQRCodeGenerateAndScan-Info.plist"; sourceTree = "<group>"; };
+		53A6E88C70CE34254C79F6E28584985E /* i25.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = i25.h; path = zbar/decoder/i25.h; sourceTree = "<group>"; };
+		593838A0A6194BC837A2AEAACEF37E12 /* LYQRCodeGenerateAndScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYQRCodeGenerateAndScan-dummy.m"; sourceTree = "<group>"; };
+		59A3364CF639CD65EC5812EE7A40A383 /* LBXZBarSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBXZBarSDK-Info.plist"; sourceTree = "<group>"; };
+		5A077EE7305CE5B7BCB8D51F30777480 /* code128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = code128.h; path = zbar/decoder/code128.h; sourceTree = "<group>"; };
+		5A526BBE632AC724A9FF33774D2376C6 /* ly_scannerNavBack_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ly_scannerNavBack_icon@3x.png"; path = "LYQRCodeGenerateAndScan/Assets/ly_scannerNavBack_icon@3x.png"; sourceTree = "<group>"; };
+		5B2C9A003EF77D1E03143B34964974A7 /* debug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = debug.h; path = zbar/debug.h; sourceTree = "<group>"; };
+		5B4DADE81194B64DC660B77F5414176A /* symbol.c */ = {isa = PBXFileReference; includeInIndex = 1; name = symbol.c; path = zbar/symbol.c; sourceTree = "<group>"; };
 		5D96197EB2CA8616EB6E54254826F8A4 /* Pods-LYQRCodeGenerateAndScan_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYQRCodeGenerateAndScan_Example.modulemap"; sourceTree = "<group>"; };
-		61AE21E84D8B1C825FBF198C2F28B309 /* LYQRCodeGenerateAndScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYQRCodeGenerateAndScan.debug.xcconfig; sourceTree = "<group>"; };
-		634FE7643DCEBC363BB84477A0EEEFF2 /* LYQRCodeGenerateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYQRCodeGenerateManager.h; path = LYQRCodeGenerateAndScan/Classes/LYQRCodeGenerateManager.h; sourceTree = "<group>"; };
+		5F4E17CB3E54436BFCAD71F08F9D9D42 /* LBXZBarWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LBXZBarWrapper.h; sourceTree = "<group>"; };
+		66960788D5AED13249A204B4FB020F7F /* ZBarReaderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarReaderViewController.m; path = iphone/ZBarReaderViewController.m; sourceTree = "<group>"; };
 		6934A24C8982F04D977DE64DE6068272 /* Pods-LYQRCodeGenerateAndScan_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYQRCodeGenerateAndScan_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6B4C98A7C1DBEE595372FC8009C23B72 /* LYQRCodeGenerateAndScan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LYQRCodeGenerateAndScan.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7F56C7955D356800EFE4409BD4CD0BC1 /* LYQRCodeGenerateAndScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYQRCodeGenerateAndScan.release.xcconfig; sourceTree = "<group>"; };
+		69FEE7E784239D81DA3C288F20886684 /* window.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = window.h; path = zbar/window.h; sourceTree = "<group>"; };
+		6DC719009D6E4041546E319838F8E06A /* ly_scannerAnimationLine_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ly_scannerAnimationLine_icon@3x.png"; path = "LYQRCodeGenerateAndScan/Assets/ly_scannerAnimationLine_icon@3x.png"; sourceTree = "<group>"; };
+		6E361AAB066FECBE7233DC8FD9C71601 /* ZBarReaderController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarReaderController.m; path = iphone/ZBarReaderController.m; sourceTree = "<group>"; };
+		713B8AEC32CD6AC3DEFD09B312A6156D /* refcnt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = refcnt.h; path = zbar/refcnt.h; sourceTree = "<group>"; };
+		764D4E7A881CB7ED0CF90B2488CE337E /* LYScannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYScannerView.h; path = LYQRCodeGenerateAndScan/Classes/LYScannerView.h; sourceTree = "<group>"; };
+		7687BB3D0D5847FED849CFCE34702EC1 /* ZBarImageScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBarImageScanner.h; path = iphone/include/ZBarSDK/ZBarImageScanner.h; sourceTree = "<group>"; };
+		784CC35CD9CF3EAEE659EFBE66F76FCF /* LYScannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYScannerView.m; path = LYQRCodeGenerateAndScan/Classes/LYScannerView.m; sourceTree = "<group>"; };
+		7AF4AA7A0B6C8749C03FF095A22D712A /* debug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = debug.h; path = iphone/debug.h; sourceTree = "<group>"; };
+		7CC8DB2293ADFB49BB01551960CF5249 /* LYQRCodeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYQRCodeManager.h; path = LYQRCodeGenerateAndScan/Classes/LYQRCodeManager.h; sourceTree = "<group>"; };
+		7F0E094131868D855BCF95A5C9585B61 /* ZBarSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBarSymbol.h; path = iphone/include/ZBarSDK/ZBarSymbol.h; sourceTree = "<group>"; };
+		7F8545359A56B5C6C48BF9999AC5C9C1 /* x.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x.h; path = zbar/window/x.h; sourceTree = "<group>"; };
 		81FAEA6C004EF7758E1C5C42CA42F930 /* Pods-LYQRCodeGenerateAndScan_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYQRCodeGenerateAndScan_Example-frameworks.sh"; sourceTree = "<group>"; };
+		85660A6AFD97EBE66E3C8BCD59A49979 /* LYQRCodeGenerateAndScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYQRCodeGenerateAndScan-prefix.pch"; sourceTree = "<group>"; };
+		86457802EBA6448C1502DF5E0ED68238 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan"; path = LYQRCodeGenerateAndScan.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7431612A38103857C515DCB8563B6B /* Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BF6DC2F6667CA3EB883466E890BB2AA /* ResourceBundle-LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan-Info.plist"; sourceTree = "<group>"; };
+		8F378D4C6D0EFE4BFCE3C3BCF69C51A4 /* qr_finder.c */ = {isa = PBXFileReference; includeInIndex = 1; name = qr_finder.c; path = zbar/decoder/qr_finder.c; sourceTree = "<group>"; };
+		9212B7A2D5EF5B48777FF3C2BC691765 /* refcnt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = refcnt.c; path = zbar/refcnt.c; sourceTree = "<group>"; };
+		92533A45CAE0FE8929D71AFE96B61B96 /* code93.c */ = {isa = PBXFileReference; includeInIndex = 1; name = code93.c; path = zbar/decoder/code93.c; sourceTree = "<group>"; };
+		9264B6891E695255DEA46B0277461F7E /* pdf417.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pdf417.h; path = zbar/decoder/pdf417.h; sourceTree = "<group>"; };
 		93A93484D9287F5E1D78D6585EC58D26 /* Pods-LYQRCodeGenerateAndScan_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYQRCodeGenerateAndScan_Tests-dummy.m"; sourceTree = "<group>"; };
+		93C244AD3F39B2D89BBCFA4ECF7FDF00 /* ZBarCameraSimulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarCameraSimulator.m; path = iphone/ZBarCameraSimulator.m; sourceTree = "<group>"; };
+		94A64C36495404128C1FBC43FE728CE1 /* codabar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = codabar.h; path = zbar/decoder/codabar.h; sourceTree = "<group>"; };
+		9501DF99D0C1406314AC22A20307385B /* processor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = processor.h; path = zbar/processor.h; sourceTree = "<group>"; };
+		97C7A82DDEBB54546D7DEC3F24D9A091 /* mutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutex.h; path = zbar/mutex.h; sourceTree = "<group>"; };
+		9940E466CF8718A679880D007EF37143 /* ZBarImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBarImage.h; path = iphone/include/ZBarSDK/ZBarImage.h; sourceTree = "<group>"; };
 		9B80A6A98EF47C62FE4CF19899B2E1A4 /* Pods-LYQRCodeGenerateAndScan_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYQRCodeGenerateAndScan_Example-Info.plist"; sourceTree = "<group>"; };
+		9C43A7ACBEDDDF2293D83B013BC542BF /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBarCameraSimulator.h; path = iphone/include/ZBarSDK/ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		9C48B9B9A97E68FAAA238D33D7F7A6DF /* ZBarCaptureReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarCaptureReader.m; path = iphone/ZBarCaptureReader.m; sourceTree = "<group>"; };
+		9CD14D9276AA37A26907AC091F3F7C38 /* databar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = databar.h; path = zbar/decoder/databar.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E382F05FB94A7BFD11C75471C00CABC /* code93.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = code93.h; path = zbar/decoder/code93.h; sourceTree = "<group>"; };
+		9EC8642020841A27E9F4A3EEEA90C605 /* zbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zbar.h; path = include/zbar.h; sourceTree = "<group>"; };
+		9FA0FC9ED94631841D4692191FC948C3 /* qrdec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qrdec.h; path = zbar/qrcode/qrdec.h; sourceTree = "<group>"; };
+		9FC88595628C0C64593FC0C4AAEC15F2 /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = error.h; path = zbar/error.h; sourceTree = "<group>"; };
+		A03DDC41BE10683FD46AABD2B21C964C /* ZBarReaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBarReaderView.h; path = iphone/include/ZBarSDK/ZBarReaderView.h; sourceTree = "<group>"; };
+		A1ABF5506F7601C0401610BB2EF72643 /* ZBarReaderController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBarReaderController.h; path = iphone/include/ZBarSDK/ZBarReaderController.h; sourceTree = "<group>"; };
+		A3C0112D0F3BB69DBF276CCD7EB3083C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A62CF2BB5A324231B518EAF2BF54E041 /* LBXZBarWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LBXZBarWrapper.m; sourceTree = "<group>"; };
 		AB08981ADDAF996B2B472251EB0543FC /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B02E40A0FF70D3666185889378784373 /* LYQRCodeGenerateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYQRCodeGenerateManager.m; path = LYQRCodeGenerateAndScan/Classes/LYQRCodeGenerateManager.m; sourceTree = "<group>"; };
-		B04B84CA3B569F15F9DF961B3D0556EA /* LYQRCodeGenerateAndScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYQRCodeGenerateAndScan-dummy.m"; sourceTree = "<group>"; };
+		AC65297EDC06CA213D22499C9DFE80D4 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = iphone/include/config.h; sourceTree = "<group>"; };
+		AE758B46CC90ED8BB9DD378114EAD0A9 /* LBXZBarSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBXZBarSDK.release.xcconfig; sourceTree = "<group>"; };
 		B501F93599F65056CD790DD8FAB66116 /* Pods-LYQRCodeGenerateAndScan_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYQRCodeGenerateAndScan_Tests.modulemap"; sourceTree = "<group>"; };
 		B5B79B53D977CF2081F5EA8126D1C4CD /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYQRCodeGenerateAndScan_Example-umbrella.h"; sourceTree = "<group>"; };
+		B8956E196532123A6AFCD79149935CB7 /* qrdectxt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = qrdectxt.c; path = zbar/qrcode/qrdectxt.c; sourceTree = "<group>"; };
+		BEBE12C5C72962AA77A2EDDCFF318BC9 /* qrcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qrcode.h; path = zbar/qrcode.h; sourceTree = "<group>"; };
+		BEF7573B2902DDD1DE9E8318BA440E89 /* ly_flashlight_On_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ly_flashlight_On_icon@3x.png"; path = "LYQRCodeGenerateAndScan/Assets/ly_flashlight_On_icon@3x.png"; sourceTree = "<group>"; };
+		BF5E9D2E041B071D241DD1D32DD5DBF9 /* ean.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ean.c; path = zbar/decoder/ean.c; sourceTree = "<group>"; };
 		BFAF0F34469A87CC4548022A9D1767D2 /* Pods-LYQRCodeGenerateAndScan_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYQRCodeGenerateAndScan_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1342269F791420E3B04D7B378165FEF /* code128.c */ = {isa = PBXFileReference; includeInIndex = 1; name = code128.c; path = zbar/decoder/code128.c; sourceTree = "<group>"; };
+		C30CD2FB0C4C93169F2B19014B0C27E7 /* ly_scannerAnimationLine_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ly_scannerAnimationLine_icon@2x.png"; path = "LYQRCodeGenerateAndScan/Assets/ly_scannerAnimationLine_icon@2x.png"; sourceTree = "<group>"; };
 		C4081E5BC54A5E6A4DEB8DC7622F62F0 /* Pods-LYQRCodeGenerateAndScan_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LYQRCodeGenerateAndScan_Example"; path = Pods_LYQRCodeGenerateAndScan_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D19680C389DC39612681DD09CEB763D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C54FBC3E40701F541269786174B28CEB /* binarize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = binarize.h; path = zbar/qrcode/binarize.h; sourceTree = "<group>"; };
+		C58A2B7CD52782455A6496B5F981A886 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C74074E5DB3CB470A95973F718941479 /* img_scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; name = img_scanner.c; path = zbar/img_scanner.c; sourceTree = "<group>"; };
+		C7A5142CDEF4489A875616D2AB7B3385 /* LYQRCodeGenerateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYQRCodeGenerateManager.m; path = LYQRCodeGenerateAndScan/Classes/LYQRCodeGenerateManager.m; sourceTree = "<group>"; };
+		C833142958F0C2D02A3C2B4EDDE186A7 /* LYQRCodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYQRCodeViewController.h; path = LYQRCodeGenerateAndScan/Classes/LYQRCodeViewController.h; sourceTree = "<group>"; };
+		CBACB8EB9ADA804581ED60F692EF948E /* image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = image.h; path = zbar/image.h; sourceTree = "<group>"; };
+		CBE9A44E62873D3C7240CCB7D94F8B25 /* rs.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rs.c; path = zbar/qrcode/rs.c; sourceTree = "<group>"; };
+		CE4FD614BC594E7D711DE1BFAA91973E /* ly_scannerNavBack_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ly_scannerNavBack_icon@2x.png"; path = "LYQRCodeGenerateAndScan/Assets/ly_scannerNavBack_icon@2x.png"; sourceTree = "<group>"; };
+		D05B2C982D7EF83DC88F4134D8C0B025 /* ean.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ean.h; path = zbar/decoder/ean.h; sourceTree = "<group>"; };
+		D3986E38B2B9CA20F522AA4FFC0BBED0 /* img_scanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = img_scanner.h; path = zbar/img_scanner.h; sourceTree = "<group>"; };
+		D6813B8A7856D29E2750DC7AAECB358F /* LBXZBarSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBXZBarSDK.debug.xcconfig; sourceTree = "<group>"; };
+		DAD17444409887E9FBCDAEA956D26713 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBarReaderViewController.h; path = iphone/include/ZBarSDK/ZBarReaderViewController.h; sourceTree = "<group>"; };
+		DBE5332555443111AAB81182B5DE5766 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		DFFE43E0FE71F1F9E72C61E8ED9669DF /* LBXZBarSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBXZBarSDK-umbrella.h"; sourceTree = "<group>"; };
+		E048D0107725F2C4CEDF3467BBBD5D4C /* LYQRCodeGenerateAndScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYQRCodeGenerateAndScan.debug.xcconfig; sourceTree = "<group>"; };
+		E11AA4FEA50D443526D865EFD5CF5719 /* LBXZBarSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBXZBarSDK-prefix.pch"; sourceTree = "<group>"; };
+		E35A29310F76972949D54654FB437883 /* binarize.c */ = {isa = PBXFileReference; includeInIndex = 1; name = binarize.c; path = zbar/qrcode/binarize.c; sourceTree = "<group>"; };
+		E3ADE512E8100AEEA7107932A8FB88A8 /* ZBarReaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarReaderView.m; path = iphone/ZBarReaderView.m; sourceTree = "<group>"; };
+		E3B22D1364321837DE93BD6A33A0B00A /* decoder.c */ = {isa = PBXFileReference; includeInIndex = 1; name = decoder.c; path = zbar/decoder.c; sourceTree = "<group>"; };
+		E4F4F5E3E2AB791E31AF82B7D08C7F85 /* ZBarCVImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZBarCVImage.h; path = iphone/ZBarCVImage.h; sourceTree = "<group>"; };
+		E571E8DD6647B5E6A14624E63E3D64D3 /* svg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = svg.h; path = zbar/svg.h; sourceTree = "<group>"; };
 		E73D43EFE145A9E5F59E1B9EEDCEFB03 /* Pods-LYQRCodeGenerateAndScan_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LYQRCodeGenerateAndScan_Tests"; path = Pods_LYQRCodeGenerateAndScan_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E864ED8829BFD00BA7E2AEC80597E8 /* Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E866BBCA6AC6DE0FC27858FBA6A91FB3 /* thread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thread.h; path = zbar/thread.h; sourceTree = "<group>"; };
+		EBE41546456977CBFB5F17E429B52208 /* LYQRCodeGenerateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYQRCodeGenerateManager.h; path = LYQRCodeGenerateAndScan/Classes/LYQRCodeGenerateManager.h; sourceTree = "<group>"; };
+		F04D3EDFA4DD9CBCAD641D9D15E8B78B /* decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = decoder.h; path = zbar/decoder.h; sourceTree = "<group>"; };
+		F353167C9943CCFF98456D097CCED521 /* bch15_5.c */ = {isa = PBXFileReference; includeInIndex = 1; name = bch15_5.c; path = zbar/qrcode/bch15_5.c; sourceTree = "<group>"; };
 		F81C961DEEE97E2FFA5DF1CFEE57B694 /* Pods-LYQRCodeGenerateAndScan_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYQRCodeGenerateAndScan_Tests-Info.plist"; sourceTree = "<group>"; };
+		F96003350A4816BD06908B12260952DA /* image.c */ = {isa = PBXFileReference; includeInIndex = 1; name = image.c; path = zbar/image.c; sourceTree = "<group>"; };
+		F9B37D923B5325D1E4F6093F69F70009 /* ZBarCVImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZBarCVImage.m; path = iphone/ZBarCVImage.m; sourceTree = "<group>"; };
+		FA7FC0809EB6604C49880ED3CC2E4890 /* config.c */ = {isa = PBXFileReference; includeInIndex = 1; name = config.c; path = zbar/config.c; sourceTree = "<group>"; };
+		FD6CC788DBB04AFC7B98594CE5C5F1B1 /* pdf417_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pdf417_hash.h; path = zbar/decoder/pdf417_hash.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46A936D397DD66C91E5F4C019C9E2035 /* Frameworks */ = {
+		560ADA2FA16541A1250F83321071981F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E081C62949105F796D9645AE066FD89 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70C03E3A84D92206CAF52EF641B679F8 /* Frameworks */ = {
+		98C13FA9A669D816880E3E41683F44D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB3613FB5F8C05793AB0E8FBE657124B /* Foundation.framework in Frameworks */,
+				468CEEC639A8244C6C58BBECFCE69467 /* AVFoundation.framework in Frameworks */,
+				408286AAB5DD44DD27A0146E4B18147A /* CoreGraphics.framework in Frameworks */,
+				458156CF1FE1545362CD31AE3F4C4571 /* CoreMedia.framework in Frameworks */,
+				C2A94643EA6881D8A9040186AFB690C1 /* CoreVideo.framework in Frameworks */,
+				0960C8432056AED7325E37535C8D240E /* Foundation.framework in Frameworks */,
+				0A7E86BE0F33B1ADE952827F17DCB969 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BBE7A0D07C0AB215F604E74DDCEB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD74CD846D62BE022F3F09E4F91F649 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C470A9226948B6B5EF51735220CCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2239815DDC9F20982C24D1B5F6C76FB8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,44 +363,159 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D4FEC949FEC06D444593A3EA2442E59 /* Products */ = {
+		088455F45BDC8AC50C44F5DF4DB3F2BC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				01B0FA0F91510C1058A6A3939B97985E /* LYQRCodeGenerateAndScan */,
-				C4081E5BC54A5E6A4DEB8DC7622F62F0 /* Pods-LYQRCodeGenerateAndScan_Example */,
-				E73D43EFE145A9E5F59E1B9EEDCEFB03 /* Pods-LYQRCodeGenerateAndScan_Tests */,
+				46533AA4780D6BEB9E7B7DEFCFEA2F4B /* LYQRCodeGenerateAndScan.modulemap */,
+				593838A0A6194BC837A2AEAACEF37E12 /* LYQRCodeGenerateAndScan-dummy.m */,
+				153A1EA698D6DC6AA3BBFE3185C65F8B /* LYQRCodeGenerateAndScan-Info.plist */,
+				85660A6AFD97EBE66E3C8BCD59A49979 /* LYQRCodeGenerateAndScan-prefix.pch */,
+				39C39E84F55D752E91B550D524798B4D /* LYQRCodeGenerateAndScan-umbrella.h */,
+				E048D0107725F2C4CEDF3467BBBD5D4C /* LYQRCodeGenerateAndScan.debug.xcconfig */,
+				14C08ED54FED56E59E42365143866527 /* LYQRCodeGenerateAndScan.release.xcconfig */,
+				8BF6DC2F6667CA3EB883466E890BB2AA /* ResourceBundle-LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan-Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LYQRCodeGenerateAndScan";
 			sourceTree = "<group>";
 		};
-		41A7641DF14C03402378A5EBCE4A17F3 /* Pod */ = {
+		0DE54394437770E6720B4D95E6B6AA4E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D19680C389DC39612681DD09CEB763D3 /* LICENSE */,
-				6B4C98A7C1DBEE595372FC8009C23B72 /* LYQRCodeGenerateAndScan.podspec */,
-				554BEA56A63C2CCC8D7A629DFC1572CB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				02E8E38E15319F550146D2CF73FA751D /* AVFoundation.framework */,
+				A3C0112D0F3BB69DBF276CCD7EB3083C /* CoreGraphics.framework */,
+				DBE5332555443111AAB81182B5DE5766 /* CoreMedia.framework */,
+				39B958E4CB2233CA006919836C9186C3 /* CoreVideo.framework */,
+				C58A2B7CD52782455A6496B5F981A886 /* Foundation.framework */,
+				3AEC872461AA60995508741D8EB7C4C0 /* QuartzCore.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7EC3131FEEC0CD3D46E1187EEEA1C457 /* LYQRCodeGenerateAndScan */ = {
+		1323D4962FB07D177CCA0DF6FB513ECF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				634FE7643DCEBC363BB84477A0EEEFF2 /* LYQRCodeGenerateManager.h */,
-				B02E40A0FF70D3666185889378784373 /* LYQRCodeGenerateManager.m */,
-				41A7641DF14C03402378A5EBCE4A17F3 /* Pod */,
-				DF908847C77D850FBC9CE7500DB196C3 /* Support Files */,
+				57D636082E193A3159CE346FD81BCA7F /* LBXZBarSDK */,
 			);
-			name = LYQRCodeGenerateAndScan;
-			path = ../..;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57D636082E193A3159CE346FD81BCA7F /* LBXZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F353167C9943CCFF98456D097CCED521 /* bch15_5.c */,
+				471D4D351DFD558FDE6EB79E468ED922 /* bch15_5.h */,
+				E35A29310F76972949D54654FB437883 /* binarize.c */,
+				C54FBC3E40701F541269786174B28CEB /* binarize.h */,
+				2F00EB67806C9C260E0E7853CB736D53 /* codabar.c */,
+				94A64C36495404128C1FBC43FE728CE1 /* codabar.h */,
+				C1342269F791420E3B04D7B378165FEF /* code128.c */,
+				5A077EE7305CE5B7BCB8D51F30777480 /* code128.h */,
+				5022EC6659BD83ED3A5FF5D9BE858332 /* code39.c */,
+				4B5D35270CE5C8E9A66BADA159D9F822 /* code39.h */,
+				92533A45CAE0FE8929D71AFE96B61B96 /* code93.c */,
+				9E382F05FB94A7BFD11C75471C00CABC /* code93.h */,
+				FA7FC0809EB6604C49880ED3CC2E4890 /* config.c */,
+				AC65297EDC06CA213D22499C9DFE80D4 /* config.h */,
+				4479E1FF236B2C03012D23D88A6EF9D7 /* databar.c */,
+				9CD14D9276AA37A26907AC091F3F7C38 /* databar.h */,
+				7AF4AA7A0B6C8749C03FF095A22D712A /* debug.h */,
+				5B2C9A003EF77D1E03143B34964974A7 /* debug.h */,
+				E3B22D1364321837DE93BD6A33A0B00A /* decoder.c */,
+				F04D3EDFA4DD9CBCAD641D9D15E8B78B /* decoder.h */,
+				BF5E9D2E041B071D241DD1D32DD5DBF9 /* ean.c */,
+				D05B2C982D7EF83DC88F4134D8C0B025 /* ean.h */,
+				38428361EF8A8FE67B93C7492D53544C /* error.c */,
+				9FC88595628C0C64593FC0C4AAEC15F2 /* error.h */,
+				399D59EFBEB8844E65CE3A99E55CFF9A /* event.h */,
+				4E4C363AA558BA112A086AC82053DDC1 /* i25.c */,
+				53A6E88C70CE34254C79F6E28584985E /* i25.h */,
+				F96003350A4816BD06908B12260952DA /* image.c */,
+				CBACB8EB9ADA804581ED60F692EF948E /* image.h */,
+				C74074E5DB3CB470A95973F718941479 /* img_scanner.c */,
+				D3986E38B2B9CA20F522AA4FFC0BBED0 /* img_scanner.h */,
+				344443957D29E2B0F939408F479446B4 /* isaac.c */,
+				4EE018E6852852B353B742ADF6B60302 /* isaac.h */,
+				5F4E17CB3E54436BFCAD71F08F9D9D42 /* LBXZBarWrapper.h */,
+				A62CF2BB5A324231B518EAF2BF54E041 /* LBXZBarWrapper.m */,
+				97C7A82DDEBB54546D7DEC3F24D9A091 /* mutex.h */,
+				9264B6891E695255DEA46B0277461F7E /* pdf417.h */,
+				FD6CC788DBB04AFC7B98594CE5C5F1B1 /* pdf417_hash.h */,
+				1066AD78AB65F3958731074B2DB2DDB4 /* posix.h */,
+				9501DF99D0C1406314AC22A20307385B /* processor.h */,
+				8F378D4C6D0EFE4BFCE3C3BCF69C51A4 /* qr_finder.c */,
+				15C873F8C17E9618020CFD84B72216B0 /* qr_finder.h */,
+				BEBE12C5C72962AA77A2EDDCFF318BC9 /* qrcode.h */,
+				21BD0E5DC596BC679340CA46D6395DA3 /* qrdec.c */,
+				9FA0FC9ED94631841D4692191FC948C3 /* qrdec.h */,
+				B8956E196532123A6AFCD79149935CB7 /* qrdectxt.c */,
+				9212B7A2D5EF5B48777FF3C2BC691765 /* refcnt.c */,
+				713B8AEC32CD6AC3DEFD09B312A6156D /* refcnt.h */,
+				CBE9A44E62873D3C7240CCB7D94F8B25 /* rs.c */,
+				058484184BF820895C052328AA0CCE15 /* rs.h */,
+				097AB345D83F6B6ADFFFED4145C70FD8 /* scanner.c */,
+				E571E8DD6647B5E6A14624E63E3D64D3 /* svg.h */,
+				5B4DADE81194B64DC660B77F5414176A /* symbol.c */,
+				266D18134C701DA2EF2961242FA7842B /* symbol.h */,
+				E866BBCA6AC6DE0FC27858FBA6A91FB3 /* thread.h */,
+				32E3678BA6CB2EE481BBC3F45BFC43CA /* timer.h */,
+				3353A42B5F9569E04DC14F078BB3476A /* util.c */,
+				416741567422BF871B647381D46EA3A3 /* util.h */,
+				3877C915BC454280E5C0C8429C6A3E52 /* video.h */,
+				230ABDC2C147AFC43717AF74B04DDEDA /* win.h */,
+				69FEE7E784239D81DA3C288F20886684 /* window.h */,
+				7F8545359A56B5C6C48BF9999AC5C9C1 /* x.h */,
+				9EC8642020841A27E9F4A3EEEA90C605 /* zbar.h */,
+				9C43A7ACBEDDDF2293D83B013BC542BF /* ZBarCameraSimulator.h */,
+				93C244AD3F39B2D89BBCFA4ECF7FDF00 /* ZBarCameraSimulator.m */,
+				404383040128A6F0C0C67A6A26753D7F /* ZBarCaptureReader.h */,
+				9C48B9B9A97E68FAAA238D33D7F7A6DF /* ZBarCaptureReader.m */,
+				E4F4F5E3E2AB791E31AF82B7D08C7F85 /* ZBarCVImage.h */,
+				F9B37D923B5325D1E4F6093F69F70009 /* ZBarCVImage.m */,
+				9940E466CF8718A679880D007EF37143 /* ZBarImage.h */,
+				0428F326BB97549ED7317E46D0BD5D0D /* ZBarImage.m */,
+				7687BB3D0D5847FED849CFCE34702EC1 /* ZBarImageScanner.h */,
+				0192D9DE05342E7C590DFA35766309FE /* ZBarImageScanner.m */,
+				A1ABF5506F7601C0401610BB2EF72643 /* ZBarReaderController.h */,
+				6E361AAB066FECBE7233DC8FD9C71601 /* ZBarReaderController.m */,
+				A03DDC41BE10683FD46AABD2B21C964C /* ZBarReaderView.h */,
+				E3ADE512E8100AEEA7107932A8FB88A8 /* ZBarReaderView.m */,
+				DAD17444409887E9FBCDAEA956D26713 /* ZBarReaderViewController.h */,
+				66960788D5AED13249A204B4FB020F7F /* ZBarReaderViewController.m */,
+				324D8C578EA14A806A9E4B33B15ACCAA /* ZBarReaderViewImpl_Capture.m */,
+				3491591BCC32187C02FF4288F892BEFE /* ZBarReaderViewImpl_Simulator.m */,
+				50B3DA3857CC694D009ECB28BD51D220 /* ZBarSDK.h */,
+				7F0E094131868D855BCF95A5C9585B61 /* ZBarSymbol.h */,
+				44297C2F1ADF7FC9261AE9EF7C4EAF44 /* ZBarSymbol.m */,
+				6CA452A3B327291471269C7160B5340D /* Support Files */,
+			);
+			name = LBXZBarSDK;
+			path = LBXZBarSDK;
+			sourceTree = "<group>";
+		};
+		6CA452A3B327291471269C7160B5340D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F0B6E577D1EEA31A90EC48CD26BF4D /* LBXZBarSDK.modulemap */,
+				20E4611FF7E7FBA575ABF15FAD022149 /* LBXZBarSDK-dummy.m */,
+				59A3364CF639CD65EC5812EE7A40A383 /* LBXZBarSDK-Info.plist */,
+				E11AA4FEA50D443526D865EFD5CF5719 /* LBXZBarSDK-prefix.pch */,
+				DFFE43E0FE71F1F9E72C61E8ED9669DF /* LBXZBarSDK-umbrella.h */,
+				D6813B8A7856D29E2750DC7AAECB358F /* LBXZBarSDK.debug.xcconfig */,
+				AE758B46CC90ED8BB9DD378114EAD0A9 /* LBXZBarSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBXZBarSDK";
+			sourceTree = "<group>";
+		};
+		751CD160D7D4DBFF020BB5BA90F7E913 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				22E7E0A20636225B5BD13B83915583A0 /* LICENSE */,
+				1D18222266F7485D775B5435E149A57A /* LYQRCodeGenerateAndScan.podspec */,
+				0A9CD660A5F2E7E7357FBD9CD2ABA291 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		86E424EEA23D438E1BE40026B793D082 /* Pods-LYQRCodeGenerateAndScan_Tests */ = {
@@ -158,21 +534,48 @@
 			path = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Tests";
 			sourceTree = "<group>";
 		};
-		BC75DF702D9265EE61C1B18C8E0C3F22 /* Development Pods */ = {
+		8D99D8D68C505E4336DCE607AB4A93B6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7EC3131FEEC0CD3D46E1187EEEA1C457 /* LYQRCodeGenerateAndScan */,
+				AD84682DA55FE22342040C114B4CFF49 /* LYQRCodeGenerateAndScan */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AD84682DA55FE22342040C114B4CFF49 /* LYQRCodeGenerateAndScan */ = {
+			isa = PBXGroup;
+			children = (
+				255F241CB15F06497EDC68A1CAFBA0DD /* ly_flashlight_Off_icon@2x.png */,
+				4437B0DA8D092D20F4B424A9D390DC79 /* ly_flashlight_Off_icon@3x.png */,
+				1F23432E047B1AFAFA27A33247D8F62A /* ly_flashlight_On_icon@2x.png */,
+				BEF7573B2902DDD1DE9E8318BA440E89 /* ly_flashlight_On_icon@3x.png */,
+				C30CD2FB0C4C93169F2B19014B0C27E7 /* ly_scannerAnimationLine_icon@2x.png */,
+				6DC719009D6E4041546E319838F8E06A /* ly_scannerAnimationLine_icon@3x.png */,
+				CE4FD614BC594E7D711DE1BFAA91973E /* ly_scannerNavBack_icon@2x.png */,
+				5A526BBE632AC724A9FF33774D2376C6 /* ly_scannerNavBack_icon@3x.png */,
+				EBE41546456977CBFB5F17E429B52208 /* LYQRCodeGenerateManager.h */,
+				C7A5142CDEF4489A875616D2AB7B3385 /* LYQRCodeGenerateManager.m */,
+				7CC8DB2293ADFB49BB01551960CF5249 /* LYQRCodeManager.h */,
+				1AC4453A630E894BF6540558D6BD6492 /* LYQRCodeManager.m */,
+				C833142958F0C2D02A3C2B4EDDE186A7 /* LYQRCodeViewController.h */,
+				4CBF155CBE4032818AA61914B5607682 /* LYQRCodeViewController.m */,
+				764D4E7A881CB7ED0CF90B2488CE337E /* LYScannerView.h */,
+				784CC35CD9CF3EAEE659EFBE66F76FCF /* LYScannerView.m */,
+				751CD160D7D4DBFF020BB5BA90F7E913 /* Pod */,
+				088455F45BDC8AC50C44F5DF4DB3F2BC /* Support Files */,
+			);
+			name = LYQRCodeGenerateAndScan;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BC75DF702D9265EE61C1B18C8E0C3F22 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1D4FEC949FEC06D444593A3EA2442E59 /* Products */,
+				8D99D8D68C505E4336DCE607AB4A93B6 /* Development Pods */,
+				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
+				1323D4962FB07D177CCA0DF6FB513ECF /* Pods */,
+				E262519CCF51A64063EE848E9DF48A4B /* Products */,
 				F95F56AB658C3C2788FC35F38A36050D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -194,27 +597,24 @@
 			path = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Example";
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				0DE54394437770E6720B4D95E6B6AA4E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF908847C77D850FBC9CE7500DB196C3 /* Support Files */ = {
+		E262519CCF51A64063EE848E9DF48A4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02E999A2FF7105067FDB20FC04DCEB4D /* LYQRCodeGenerateAndScan.modulemap */,
-				B04B84CA3B569F15F9DF961B3D0556EA /* LYQRCodeGenerateAndScan-dummy.m */,
-				5576C0347220147C2DC5F322740DF3EC /* LYQRCodeGenerateAndScan-Info.plist */,
-				0388D7B77D15DDB4F4C385B9FF5374AF /* LYQRCodeGenerateAndScan-prefix.pch */,
-				4E947667D10F788A918A2C12E15276CB /* LYQRCodeGenerateAndScan-umbrella.h */,
-				61AE21E84D8B1C825FBF198C2F28B309 /* LYQRCodeGenerateAndScan.debug.xcconfig */,
-				7F56C7955D356800EFE4409BD4CD0BC1 /* LYQRCodeGenerateAndScan.release.xcconfig */,
+				0F4531FA7C8A68C55BE45271AAF53DBA /* LBXZBarSDK */,
+				01B0FA0F91510C1058A6A3939B97985E /* LYQRCodeGenerateAndScan */,
+				86457802EBA6448C1502DF5E0ED68238 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan */,
+				C4081E5BC54A5E6A4DEB8DC7622F62F0 /* Pods-LYQRCodeGenerateAndScan_Example */,
+				E73D43EFE145A9E5F59E1B9EEDCEFB03 /* Pods-LYQRCodeGenerateAndScan_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LYQRCodeGenerateAndScan";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F95F56AB658C3C2788FC35F38A36050D /* Targets Support Files */ = {
@@ -229,12 +629,80 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		72B24588E9D4EF8FD3DF69C968D4629F /* Headers */ = {
+		178FB31C7860B091749B9453804832D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBE66AC98933C65F2C1A27102619621D /* LYQRCodeGenerateAndScan-umbrella.h in Headers */,
-				86AAE5E33BB27E38F78274B704CB7398 /* LYQRCodeGenerateManager.h in Headers */,
+				FB0F906AB7BAAAF1591AF9A65680D752 /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184315D485D35D1FC3D1414780635F2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865C0CB1233CC621A4CCA2F46E180734 /* LYQRCodeGenerateAndScan-umbrella.h in Headers */,
+				B457F91FE8354C18D719037F56A5EE6B /* LYQRCodeGenerateManager.h in Headers */,
+				34FDB507C1EF046E331E0D8A9143C461 /* LYQRCodeManager.h in Headers */,
+				728FD8A44B1B1FD028DE6CD2B118281D /* LYQRCodeViewController.h in Headers */,
+				BE8916BE11861BC8E94EF351976A0674 /* LYScannerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781608FF5501AF80616739ADD61D4E34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E806AE0C70318E9569E9DB8DFECBA817 /* bch15_5.h in Headers */,
+				9965B536AB49073DDE38A753B012A25E /* binarize.h in Headers */,
+				C25FC05F2E0FDB4C57F123FAE75BC45C /* codabar.h in Headers */,
+				ABDE360008643AC9ED5255190DC11B38 /* code128.h in Headers */,
+				D05F4F0919AE087BBB76CAC7DEAB961F /* code39.h in Headers */,
+				2E351007C426DFA038D719B41F770512 /* code93.h in Headers */,
+				32483B0EAA5F4C919E04427FA86B565C /* config.h in Headers */,
+				2E983DB7459F7838A927901F5695AEB9 /* databar.h in Headers */,
+				918856AC8467B5CE57DECC06B750A171 /* debug.h in Headers */,
+				2F212C4CC0B5D710692FD4611434661A /* debug.h in Headers */,
+				CF9E8331B7AAF517E163606E48FBEF14 /* decoder.h in Headers */,
+				A9F5F53DA05CF11900DD469E5BB67698 /* ean.h in Headers */,
+				F0B2A224AEA2D980C6C1C750B808D522 /* error.h in Headers */,
+				ACC50077B202DF916FA85F52ADA2DA4B /* event.h in Headers */,
+				A238BEF4916426B5307B033CB12B578E /* i25.h in Headers */,
+				B3DAB0C8D36BEF5CA4499ACE76DF9284 /* image.h in Headers */,
+				3C8AABC103F6E19186A906848AC27118 /* img_scanner.h in Headers */,
+				D2CE243E86EB0E6D15EB0837D7B475E8 /* isaac.h in Headers */,
+				A69A54461A0A407DBC7DDD142421376B /* LBXZBarSDK-umbrella.h in Headers */,
+				234A025AD23AF2E0C888B3A757DEE51E /* LBXZBarWrapper.h in Headers */,
+				358FA919539B8931D1A9381B5ACC6835 /* mutex.h in Headers */,
+				17BDE8870C986B09183C94D5F3F1FC18 /* pdf417.h in Headers */,
+				397058EC1BE97FD97F5E3BDD04F517E7 /* pdf417_hash.h in Headers */,
+				999F3D016EA13677041C2DCADA422E19 /* posix.h in Headers */,
+				7079BE16D1E467D541CBC5FF87CF526F /* processor.h in Headers */,
+				36C029D90EC78E24849C97E9E26AE8B8 /* qr_finder.h in Headers */,
+				54C5840D2C1C7F72D9C0E22626E8F7FC /* qrcode.h in Headers */,
+				E57CCFBB6632BB7528C8C71A44628462 /* qrdec.h in Headers */,
+				A1CC9AC21CFC36EFEC27679D0534DF8C /* refcnt.h in Headers */,
+				D1738C6491BFE7D3BC05878753F9B398 /* rs.h in Headers */,
+				6A2A360C34DE53AFCB3A9ED493B0FEE8 /* svg.h in Headers */,
+				F0FF38C0FA29815D58F8DA8E20E4FA53 /* symbol.h in Headers */,
+				EC938CCA3C4AF1ADDE7E6B24372F47B8 /* thread.h in Headers */,
+				CBE8D9B39018926B3BC24315AF399F1E /* timer.h in Headers */,
+				74488B24772000F3BEF52BD056B98D63 /* util.h in Headers */,
+				72CCFD5DA21906591C6C089898D33B85 /* video.h in Headers */,
+				A6EE8737607CB9ECA969F0923B73EBE8 /* win.h in Headers */,
+				E2A4DE70BC84839EC64E367BAFC87064 /* window.h in Headers */,
+				94AF7FBDECBA18986B09D5BE952B866A /* x.h in Headers */,
+				6AB8154BC0C3666DBCEF3A6855E43ECE /* zbar.h in Headers */,
+				7BEB9A75E18AE3334BF384BA2DA69C9F /* ZBarCameraSimulator.h in Headers */,
+				4800C2D6EBC8C899540638C4FE9CFAA3 /* ZBarCaptureReader.h in Headers */,
+				FAF5F2E0F6DA44E942DB906CFADA4252 /* ZBarCVImage.h in Headers */,
+				D1FC4124FAEBABCC9FF30DEDBBBC2A7F /* ZBarImage.h in Headers */,
+				298CDB4BB74DC5550C685C3BA55977B3 /* ZBarImageScanner.h in Headers */,
+				8665A4B1CAE8F9C1C666C07402BE92E3 /* ZBarReaderController.h in Headers */,
+				CB199CC45A58FCE4B99B33DF11680E93 /* ZBarReaderView.h in Headers */,
+				C2A0F9C96FFBA1340A352503BBB8D9E6 /* ZBarReaderViewController.h in Headers */,
+				105A9D40E5BF833B3498FD890EEC28CA /* ZBarSDK.h in Headers */,
+				9B80BD74216D619724037DA52A9F5637 /* ZBarSymbol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,29 +714,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1C12C8687A17029403491109E23AAE1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9EA2CD2697371800883EDE8BD0CE922 /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		625883D85B319A437040ABC45C84A031 /* LYQRCodeGenerateAndScan */ = {
+		07847B1685BB34DA16CBED81BE79F345 /* LBXZBarSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D9F936FFFF11E616D78923BA7C25709 /* Build configuration list for PBXNativeTarget "LYQRCodeGenerateAndScan" */;
+			buildConfigurationList = 1F78AB69516D257E6AD12733AD4D8FFA /* Build configuration list for PBXNativeTarget "LBXZBarSDK" */;
 			buildPhases = (
-				72B24588E9D4EF8FD3DF69C968D4629F /* Headers */,
-				471D598F2AF01E33F9B8E45BBB0E6181 /* Sources */,
-				70C03E3A84D92206CAF52EF641B679F8 /* Frameworks */,
-				5F9AF0843897B685783E6D00E19C8507 /* Resources */,
+				781608FF5501AF80616739ADD61D4E34 /* Headers */,
+				D87D94F3F43995E8BBDD195501C6C91C /* Sources */,
+				98C13FA9A669D816880E3E41683F44D5 /* Frameworks */,
+				906E5222FBEAC844F1DD506AB9F98EA7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = LBXZBarSDK;
+			productName = LBXZBarSDK;
+			productReference = 0F4531FA7C8A68C55BE45271AAF53DBA /* LBXZBarSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E2DECF70F60EBB03BBFFF437F603F07 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F33105371BD69C1E453ED75BA50BB97 /* Build configuration list for PBXNativeTarget "LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan" */;
+			buildPhases = (
+				CE6C03A2B32ABB3532A330817E3F6901 /* Sources */,
+				560ADA2FA16541A1250F83321071981F /* Frameworks */,
+				960EEC756D33DADD8478FC291E4E364F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan";
+			productName = LYQRCodeGenerateAndScan;
+			productReference = 86457802EBA6448C1502DF5E0ED68238 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan */;
+			productType = "com.apple.product-type.bundle";
+		};
+		625883D85B319A437040ABC45C84A031 /* LYQRCodeGenerateAndScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E47E0676BFA3DCE712A4A89A751FCD09 /* Build configuration list for PBXNativeTarget "LYQRCodeGenerateAndScan" */;
+			buildPhases = (
+				184315D485D35D1FC3D1414780635F2F /* Headers */,
+				FE47368B9C492E3547FF1B7DF52F7B86 /* Sources */,
+				D9C470A9226948B6B5EF51735220CCFE /* Frameworks */,
+				30E1F05BE7225BD5428B5717D441EC8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88E3F4562BEAC4967AFCD32559A5F8B8 /* PBXTargetDependency */,
+				AD6C6B8642442AFE1446136A0D8A18E0 /* PBXTargetDependency */,
 			);
 			name = LYQRCodeGenerateAndScan;
 			productName = LYQRCodeGenerateAndScan;
@@ -277,17 +774,18 @@
 		};
 		6D53629885A3535C02867A207859EFBD /* Pods-LYQRCodeGenerateAndScan_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4DFF5A6022F3D3925530A979B22BEC2 /* Build configuration list for PBXNativeTarget "Pods-LYQRCodeGenerateAndScan_Example" */;
+			buildConfigurationList = C95C0DF16587FB3303F9CAFEBF643C36 /* Build configuration list for PBXNativeTarget "Pods-LYQRCodeGenerateAndScan_Example" */;
 			buildPhases = (
-				C1C12C8687A17029403491109E23AAE1 /* Headers */,
-				24B43407A2AF7070D0812CF3B3240278 /* Sources */,
-				46A936D397DD66C91E5F4C019C9E2035 /* Frameworks */,
-				033211111E6DB613AB63736AC233F2F1 /* Resources */,
+				178FB31C7860B091749B9453804832D6 /* Headers */,
+				AA99CE267C91050548A1091B4E00343C /* Sources */,
+				C7BBE7A0D07C0AB215F604E74DDCEB3A /* Frameworks */,
+				D95CE355EC7A490A80FF363AFFE65B9B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DA4834141061CCE1E7A347D60FF984F5 /* PBXTargetDependency */,
+				9F1AF80E6C65753B171CD73A92F35BEF /* PBXTargetDependency */,
+				C1516E86E0280F453B034CD59911DB03 /* PBXTargetDependency */,
 			);
 			name = "Pods-LYQRCodeGenerateAndScan_Example";
 			productName = Pods_LYQRCodeGenerateAndScan_Example;
@@ -306,7 +804,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8D91D0A3717CCFB1BD55661A03037F62 /* PBXTargetDependency */,
+				2C6F3FA289585CB2F61A4B6DACB74D8A /* PBXTargetDependency */,
 			);
 			name = "Pods-LYQRCodeGenerateAndScan_Tests";
 			productName = Pods_LYQRCodeGenerateAndScan_Tests;
@@ -331,11 +829,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1D4FEC949FEC06D444593A3EA2442E59 /* Products */;
+			productRefGroup = E262519CCF51A64063EE848E9DF48A4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				07847B1685BB34DA16CBED81BE79F345 /* LBXZBarSDK */,
 				625883D85B319A437040ABC45C84A031 /* LYQRCodeGenerateAndScan */,
+				5E2DECF70F60EBB03BBFFF437F603F07 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan */,
 				6D53629885A3535C02867A207859EFBD /* Pods-LYQRCodeGenerateAndScan_Example */,
 				6DCF9BBBF1473843A74B8DB2933A0EEB /* Pods-LYQRCodeGenerateAndScan_Tests */,
 			);
@@ -343,14 +843,37 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		033211111E6DB613AB63736AC233F2F1 /* Resources */ = {
+		30E1F05BE7225BD5428B5717D441EC8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B8250A69A4CBB9CEB5F85F76587328 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906E5222FBEAC844F1DD506AB9F98EA7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F9AF0843897B685783E6D00E19C8507 /* Resources */ = {
+		960EEC756D33DADD8478FC291E4E364F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206CE2906581C72D8B04FE20F72BEB5 /* ly_flashlight_Off_icon@2x.png in Resources */,
+				DB3CB2531ACCCE4A73AF7F075D6AEC3C /* ly_flashlight_Off_icon@3x.png in Resources */,
+				91F538F639AB4950893F83D57076FABF /* ly_flashlight_On_icon@2x.png in Resources */,
+				58C5857B8F446018092A21B80DB52361 /* ly_flashlight_On_icon@3x.png in Resources */,
+				22C0F219AF61E4E20158759657D96DA2 /* ly_scannerAnimationLine_icon@2x.png in Resources */,
+				9E1584235FD72E881E069D945CF129EC /* ly_scannerAnimationLine_icon@3x.png in Resources */,
+				966D0485223481B95BBD8AD9E2DE9488 /* ly_scannerNavBack_icon@2x.png in Resources */,
+				ED5C14285E68A1FC46E79A57104BA563 /* ly_scannerNavBack_icon@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95CE355EC7A490A80FF363AFFE65B9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,23 +890,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24B43407A2AF7070D0812CF3B3240278 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B96EE259468FDBBD330BE58E9ACFEF26 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		471D598F2AF01E33F9B8E45BBB0E6181 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E81DF2F7DAC16EA8D2D22ED08761E196 /* LYQRCodeGenerateAndScan-dummy.m in Sources */,
-				D9BF3C238CE52F1E332524CB348ED09B /* LYQRCodeGenerateManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7CB43B1E524EF5401CC2D4BBF1B52E53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,57 +898,113 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AA99CE267C91050548A1091B4E00343C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF651BF54B367B451E857DCB6DE3F68 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6C03A2B32ABB3532A330817E3F6901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87D94F3F43995E8BBDD195501C6C91C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BA724C50D1DD12E6954421D26DF6E4 /* bch15_5.c in Sources */,
+				CFE7DA660BFBB2DC40F6973BA970FF01 /* binarize.c in Sources */,
+				19719CCCEF1BF9666E8437185554C590 /* codabar.c in Sources */,
+				13C349C6C9D5EC8C942329D9D0167E74 /* code128.c in Sources */,
+				3D7B51BA42683F5F69809CEAE740E9D1 /* code39.c in Sources */,
+				8E582028EBC19273D07B076E7F89C23E /* code93.c in Sources */,
+				2B5F85511EEC70EB46A6D8B90ED750B2 /* config.c in Sources */,
+				47926098905089FC15AC3AE03CECCAF2 /* databar.c in Sources */,
+				EA3364BF54F95D5838EAD336FEB5E7FF /* decoder.c in Sources */,
+				C9B3EA39AD18A916F096FA9DC3F0FD0F /* ean.c in Sources */,
+				F05050A6D67E5FE35B407959EBFFF61F /* error.c in Sources */,
+				75C92C4E55ACC056FCEA9155D6F563BB /* i25.c in Sources */,
+				D198CBB0B42A2A029E87AC38AEFC40B8 /* image.c in Sources */,
+				15CFA10E97872423FF9E90814B279F94 /* img_scanner.c in Sources */,
+				18E2F61971EF374531549C86A5E6680A /* isaac.c in Sources */,
+				9C829E9ABB8523B3324E75C88FA7D3FE /* LBXZBarSDK-dummy.m in Sources */,
+				8D2C16BCCF6FDEDD965D193F02BA0DA7 /* LBXZBarWrapper.m in Sources */,
+				056780E34F68D4DA30E56A530C0E33CA /* qr_finder.c in Sources */,
+				20ED132B514A765DD4DE59CD1D6D65CC /* qrdec.c in Sources */,
+				0E4CD48E0CAFF9C55E08FE84B26EDA99 /* qrdectxt.c in Sources */,
+				F33297E0C8B540C78A91386F40E107F3 /* refcnt.c in Sources */,
+				705A2F8DE7FD7FFE523D4E28C232C598 /* rs.c in Sources */,
+				4861B312C78E28EAC57462D7570AB6FB /* scanner.c in Sources */,
+				1DB6A1A513D566CDCF82A2EC9CE978EB /* symbol.c in Sources */,
+				CEBEBDB97853C4887DF4A389A9B9E652 /* util.c in Sources */,
+				AD027292EF6799C7BBC144154C3DC584 /* ZBarCameraSimulator.m in Sources */,
+				FA1AE9B72368E04FEEEBF858E95CF56C /* ZBarCaptureReader.m in Sources */,
+				F6BE12888ADB6BB278ACA00AEDD7188F /* ZBarCVImage.m in Sources */,
+				184F9534B57F56329CCB098EACF3FF01 /* ZBarImage.m in Sources */,
+				CAD7063439746DDFDA93FAB3C5F30E08 /* ZBarImageScanner.m in Sources */,
+				DDB7BFC3BBA443D5E056E955B41709B3 /* ZBarReaderController.m in Sources */,
+				1A960D617BE3F839BBBB143622EFB33B /* ZBarReaderView.m in Sources */,
+				736A15431F46F20FD425E278D96E45A7 /* ZBarReaderViewController.m in Sources */,
+				A4D3CD3ECBA8AA9F84E27AB7DFE7CE91 /* ZBarReaderViewImpl_Capture.m in Sources */,
+				3DC5A209ADF4A0A1D0A46E63315FB895 /* ZBarReaderViewImpl_Simulator.m in Sources */,
+				23AB6465DF1C1E4DF47B75E3AA3B7E60 /* ZBarSymbol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE47368B9C492E3547FF1B7DF52F7B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760B70D54B2E3D351B2BDFD8366DBD91 /* LYQRCodeGenerateAndScan-dummy.m in Sources */,
+				C78028BA86ACE103C59FDACED84C03A0 /* LYQRCodeGenerateManager.m in Sources */,
+				198A2949AD7E42B76878814883D68DA7 /* LYQRCodeManager.m in Sources */,
+				286480ADA5C8EFD4C3F232E2EF8268DE /* LYQRCodeViewController.m in Sources */,
+				4E95220F6637A081AA1322D3ACD9FFD0 /* LYScannerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8D91D0A3717CCFB1BD55661A03037F62 /* PBXTargetDependency */ = {
+		2C6F3FA289585CB2F61A4B6DACB74D8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LYQRCodeGenerateAndScan_Example";
 			target = 6D53629885A3535C02867A207859EFBD /* Pods-LYQRCodeGenerateAndScan_Example */;
-			targetProxy = BA266DBDEC3EA4C1122B462C1B441AC6 /* PBXContainerItemProxy */;
+			targetProxy = 31F2B3404AB910156FCA168DD4C03544 /* PBXContainerItemProxy */;
 		};
-		DA4834141061CCE1E7A347D60FF984F5 /* PBXTargetDependency */ = {
+		88E3F4562BEAC4967AFCD32559A5F8B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBXZBarSDK;
+			target = 07847B1685BB34DA16CBED81BE79F345 /* LBXZBarSDK */;
+			targetProxy = 0F45C86C70A2AD221C9B550BC6279E4E /* PBXContainerItemProxy */;
+		};
+		9F1AF80E6C65753B171CD73A92F35BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBXZBarSDK;
+			target = 07847B1685BB34DA16CBED81BE79F345 /* LBXZBarSDK */;
+			targetProxy = 58A0093AE71F0665F94801F7A130ECC7 /* PBXContainerItemProxy */;
+		};
+		AD6C6B8642442AFE1446136A0D8A18E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan";
+			target = 5E2DECF70F60EBB03BBFFF437F603F07 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan */;
+			targetProxy = 514AC1C6225024D093C408F45F6AB464 /* PBXContainerItemProxy */;
+		};
+		C1516E86E0280F453B034CD59911DB03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LYQRCodeGenerateAndScan;
 			target = 625883D85B319A437040ABC45C84A031 /* LYQRCodeGenerateAndScan */;
-			targetProxy = 4DD1CC01C729CBF27D38AF1C0835816A /* PBXContainerItemProxy */;
+			targetProxy = B40C6CCC906495B953DC7F89DB4AB2A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0526D93035F26170A730F98925026E71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F56C7955D356800EFE4409BD4CD0BC1 /* LYQRCodeGenerateAndScan.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan.modulemap";
-				PRODUCT_MODULE_NAME = LYQRCodeGenerateAndScan;
-				PRODUCT_NAME = LYQRCodeGenerateAndScan;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5F561FE68D4DD94531B5C5FA8411F16B /* Release */ = {
+		100F8E05D06673FED0E1A65FCE16CC36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36276470BF6A9BB239E5A998079A9A31 /* Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig */;
 			buildSettings = {
@@ -473,6 +1035,68 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E09228D3F98A6DE6FE71675D4237894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E048D0107725F2C4CEDF3467BBBD5D4C /* LYQRCodeGenerateAndScan.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LYQRCodeGenerateAndScan";
+				IBSC_MODULE = LYQRCodeGenerateAndScan;
+				INFOPLIST_FILE = "Target Support Files/LYQRCodeGenerateAndScan/ResourceBundle-LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LYQRCodeGenerateAndScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3331A3DF04A2385025CD20DBB34AD803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E048D0107725F2C4CEDF3467BBBD5D4C /* LYQRCodeGenerateAndScan.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan.modulemap";
+				PRODUCT_MODULE_NAME = LYQRCodeGenerateAndScan;
+				PRODUCT_NAME = LYQRCodeGenerateAndScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4171B8108D6463EE55F6EF35A029ACED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C08ED54FED56E59E42365143866527 /* LYQRCodeGenerateAndScan.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LYQRCodeGenerateAndScan";
+				IBSC_MODULE = LYQRCodeGenerateAndScan;
+				INFOPLIST_FILE = "Target Support Files/LYQRCodeGenerateAndScan/ResourceBundle-LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LYQRCodeGenerateAndScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -538,6 +1162,37 @@
 			};
 			name = Release;
 		};
+		822A6138C0E72823CB61FDE5F7D5BA25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE758B46CC90ED8BB9DD378114EAD0A9 /* LBXZBarSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBXZBarSDK/LBXZBarSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBXZBarSDK/LBXZBarSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBXZBarSDK/LBXZBarSDK.modulemap";
+				PRODUCT_MODULE_NAME = LBXZBarSDK;
+				PRODUCT_NAME = LBXZBarSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A0AC39313535393736757E0C1223FA8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 032853B36D60B5ABBFBF429AB5447EC6 /* Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig */;
@@ -570,6 +1225,70 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A3C54EA616F31D2CB26A8A31B56535E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB08981ADDAF996B2B472251EB0543FC /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Example/Pods-LYQRCodeGenerateAndScan_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Example/Pods-LYQRCodeGenerateAndScan_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1EB6132F891FC1337AC971BE9E02F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C08ED54FED56E59E42365143866527 /* LYQRCodeGenerateAndScan.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan.modulemap";
+				PRODUCT_MODULE_NAME = LYQRCodeGenerateAndScan;
+				PRODUCT_NAME = LYQRCodeGenerateAndScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CF67E830747F43E8E9C15EB26068E337 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -671,12 +1390,10 @@
 			};
 			name = Debug;
 		};
-		E17195519886496534B638DDB311972A /* Debug */ = {
+		F68611358123ACB67D721D035C9B8D19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB08981ADDAF996B2B472251EB0543FC /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */;
+			baseConfigurationReference = D6813B8A7856D29E2750DC7AAECB358F /* LBXZBarSDK.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -685,46 +1402,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Example/Pods-LYQRCodeGenerateAndScan_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LBXZBarSDK/LBXZBarSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBXZBarSDK/LBXZBarSDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Example/Pods-LYQRCodeGenerateAndScan_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FAD0C868CEBFA5D1B8DE25B1C3BA067E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61AE21E84D8B1C825FBF198C2F28B309 /* LYQRCodeGenerateAndScan.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LYQRCodeGenerateAndScan/LYQRCodeGenerateAndScan.modulemap";
-				PRODUCT_MODULE_NAME = LYQRCodeGenerateAndScan;
-				PRODUCT_NAME = LYQRCodeGenerateAndScan;
+				MODULEMAP_FILE = "Target Support Files/LBXZBarSDK/LBXZBarSDK.modulemap";
+				PRODUCT_MODULE_NAME = LBXZBarSDK;
+				PRODUCT_NAME = LBXZBarSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -738,11 +1423,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D9F936FFFF11E616D78923BA7C25709 /* Build configuration list for PBXNativeTarget "LYQRCodeGenerateAndScan" */ = {
+		1F78AB69516D257E6AD12733AD4D8FFA /* Build configuration list for PBXNativeTarget "LBXZBarSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAD0C868CEBFA5D1B8DE25B1C3BA067E /* Debug */,
-				0526D93035F26170A730F98925026E71 /* Release */,
+				F68611358123ACB67D721D035C9B8D19 /* Debug */,
+				822A6138C0E72823CB61FDE5F7D5BA25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F33105371BD69C1E453ED75BA50BB97 /* Build configuration list for PBXNativeTarget "LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E09228D3F98A6DE6FE71675D4237894 /* Debug */,
+				4171B8108D6463EE55F6EF35A029ACED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -756,6 +1450,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C95C0DF16587FB3303F9CAFEBF643C36 /* Build configuration list for PBXNativeTarget "Pods-LYQRCodeGenerateAndScan_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C54EA616F31D2CB26A8A31B56535E4 /* Debug */,
+				100F8E05D06673FED0E1A65FCE16CC36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E226F019895F9C7FA1D4369699CF35D2 /* Build configuration list for PBXNativeTarget "Pods-LYQRCodeGenerateAndScan_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -765,11 +1468,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4DFF5A6022F3D3925530A979B22BEC2 /* Build configuration list for PBXNativeTarget "Pods-LYQRCodeGenerateAndScan_Example" */ = {
+		E47E0676BFA3DCE712A4A89A751FCD09 /* Build configuration list for PBXNativeTarget "LYQRCodeGenerateAndScan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E17195519886496534B638DDB311972A /* Debug */,
-				5F561FE68D4DD94531B5C5FA8411F16B /* Release */,
+				3331A3DF04A2385025CD20DBB34AD803 /* Debug */,
+				C1EB6132F891FC1337AC971BE9E02F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
