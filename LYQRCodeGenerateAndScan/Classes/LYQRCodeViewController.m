@@ -10,7 +10,7 @@
 #import "LYScannerView.h"
 #import "LYQRCodeManager.h"
 #import <AVFoundation/AVFoundation.h>
-#import "ZBarSDK.h"
+#import "ZXingObjC.h"
 
 
 @interface LYQRCodeViewController ()<AVCaptureMetadataOutputObjectsDelegate, AVCaptureVideoDataOutputSampleBufferDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
@@ -211,8 +211,7 @@
     dispatch_async(dispatch_get_main_queue(), ^{
 
         // 支持条形码识别
-        ZBarReaderController *imagePicker = ZBarReaderController.new;
-        imagePicker.showsHelpOnFail = NO;//禁止显示读取失败页面
+        UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
         imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         imagePicker.delegate = self;
         imagePicker.allowsEditing = YES;
@@ -225,26 +224,40 @@
 #pragma mark -- 相册图片处理
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info
 {
-    id<NSFastEnumeration> results = [info objectForKey:ZBarReaderControllerResults];
-    ZBarSymbol *symbol = nil;
-    for (symbol in results) {
-        break;
-    }
+    
+//    NSLog(@"图片信息 == %@", info);
+//    UIImage *pickImage = info[UIImagePickerControllerOriginalImage];
+    UIImage *pickImage = info[UIImagePickerControllerEditedImage];
+    
     [picker dismissViewControllerAnimated:YES completion:^{
-        if (symbol) {
-            NSString *stringValue = symbol.data;
+        
+        CGImageRef imageToDecode = pickImage.CGImage;
+        ZXLuminanceSource *source = [[ZXCGImageLuminanceSource alloc] initWithCGImage:imageToDecode];
+        ZXBinaryBitmap *bitmap = [ZXBinaryBitmap binaryBitmapWithBinarizer:[ZXHybridBinarizer binarizerWithSource:source]];
+
+        NSError *error = nil;
+        ZXDecodeHints *hints = [ZXDecodeHints hints];
+        ZXMultiFormatReader *reader = [ZXMultiFormatReader reader];
+        ZXResult *result = [reader decode:bitmap
+                                    hints:hints
+                                    error:&error];
+        if (result) {
+            NSString *stringValue = result.text;
+//          ZXBarcodeFormat format = result.barcodeFormat;
+//          NSLog(@"识别结果 == %@ \n 码类型== %d", contents, format);
             if (self.manager.scanDelegate) {
                 [self.manager.scanDelegate ly_QRCodeScanResultText:stringValue];
             }
-            
-            [self popBack];
-            
-        }else {
+
+        } else {
+//            NSLog(@"识别失败 == %@", error);
             if (self.manager.scanDelegate) {
                 [self.manager.scanDelegate ly_QRCodeScanResultFail];
             }
         }
+
     }];
+
 }
 
 #pragma mark -- App 从后台进入前台

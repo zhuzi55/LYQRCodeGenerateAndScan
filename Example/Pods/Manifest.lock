@@ -1,22 +1,24 @@
 PODS:
-  - LBXZBarSDK (1.3.5)
-  - LYQRCodeGenerateAndScan (0.0.1):
-    - LBXZBarSDK (~> 1.3.5)
+  - LYQRCodeGenerateAndScan (0.0.2):
+    - ZXingObjC (~> 3.6.4)
+  - ZXingObjC (3.6.5):
+    - ZXingObjC/All (= 3.6.5)
+  - ZXingObjC/All (3.6.5)
 
 DEPENDENCIES:
   - LYQRCodeGenerateAndScan (from `../`)
 
 SPEC REPOS:
   trunk:
-    - LBXZBarSDK
+    - ZXingObjC
 
 EXTERNAL SOURCES:
   LYQRCodeGenerateAndScan:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LBXZBarSDK: db826d1265fbb4fbdbb2f30d7d1e96142e32bfff
-  LYQRCodeGenerateAndScan: f2513a4c632a6a644dfdffddf455befa6eccdaf1
+  LYQRCodeGenerateAndScan: 96d6879410296ab850225a4ee714cf6c63d80edd
+  ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
 PODFILE CHECKSUM: e97a31d5e393ff94b70b811d480d61fdc823c919
 
