@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0D1867822CB6FFDB1B4708D7 /* Pods_LYQRCodeGenerateAndScan_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB10A928F776AB9E4CC69820 /* Pods_LYQRCodeGenerateAndScan_Example.framework */; };
-		4377C7902DA4D96BAC5262B8 /* Pods_LYQRCodeGenerateAndScan_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D953A4348F7DF8E2C7669B85 /* Pods_LYQRCodeGenerateAndScan_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1565F2287337F2DBEC944E08 /* Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig"; path = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Tests/Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3A8F53200F9320A515CFBCDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3B7EA8707DCA0B2FDD3BF3E3 /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig"; path = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Example/Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5DF3EF669DC79DBADDEAE6EC /* Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Tests/Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYQRCodeGenerateAndScan_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYQRCodeGenerateAndScan_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +61,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87ADC538FA051FE34E32751D /* Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig"; path = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Example/Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D953A4348F7DF8E2C7669B85 /* Pods_LYQRCodeGenerateAndScan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYQRCodeGenerateAndScan_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDB0B3F8076FEF1B4F45C65 /* LYQRCodeGenerateAndScan.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYQRCodeGenerateAndScan.podspec; path = ../LYQRCodeGenerateAndScan.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FB10A928F776AB9E4CC69820 /* Pods_LYQRCodeGenerateAndScan_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYQRCodeGenerateAndScan_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,7 +84,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				4377C7902DA4D96BAC5262B8 /* Pods_LYQRCodeGenerateAndScan_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +119,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				FB10A928F776AB9E4CC69820 /* Pods_LYQRCodeGenerateAndScan_Example.framework */,
-				D953A4348F7DF8E2C7669B85 /* Pods_LYQRCodeGenerateAndScan_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +184,6 @@
 			children = (
 				3B7EA8707DCA0B2FDD3BF3E3 /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */,
 				87ADC538FA051FE34E32751D /* Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig */,
-				5DF3EF669DC79DBADDEAE6EC /* Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig */,
-				1565F2287337F2DBEC944E08 /* Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -222,7 +214,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LYQRCodeGenerateAndScan_Tests" */;
 			buildPhases = (
-				15B36E6B788D6C0286321495 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -298,28 +289,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15B36E6B788D6C0286321495 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LYQRCodeGenerateAndScan_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		377F42F8A2167C0397561108 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -536,7 +505,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DF3EF669DC79DBADDEAE6EC /* Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -561,7 +529,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1565F2287337F2DBEC944E08 /* Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

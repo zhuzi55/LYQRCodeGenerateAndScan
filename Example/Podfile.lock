@@ -1,5 +1,5 @@
 PODS:
-  - LYQRCodeGenerateAndScan (0.0.2):
+  - LYQRCodeGenerateAndScan (0.0.3):
     - ZXingObjC (~> 3.6.4)
   - ZXingObjC (3.6.5):
     - ZXingObjC/All (= 3.6.5)
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LYQRCodeGenerateAndScan: 96d6879410296ab850225a4ee714cf6c63d80edd
+  LYQRCodeGenerateAndScan: ca23f781922d584dc2a037b1d40c8b5e2681ab99
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: e97a31d5e393ff94b70b811d480d61fdc823c919
+PODFILE CHECKSUM: 2665fc7d4ed232627ad7a2126a7be309294858cc
 
 COCOAPODS: 1.11.2

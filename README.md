@@ -2,7 +2,10 @@
 ## 效果图
 ![效果图](assets/%E6%95%88%E6%9E%9C%E5%9B%BE.gif)
 
-
+## 功能介绍
+1. 一行代码生成二维码
+2. 一行代码进行二维码或条形码扫描
+3. 一行代码进行相册图片识别二维码或条形码
 
 
 ## 使用方式
@@ -10,7 +13,7 @@
 可以通过pod导入，也可以下载demo后把LYQRCodeGenerateAndScan文件夹导入。
 
 ```
-pod 'LYQRCodeGenerateAndScan', '~> 0.0.2'
+pod 'LYQRCodeGenerateAndScan', '~> 0.0.3'
 ```
 
 ```

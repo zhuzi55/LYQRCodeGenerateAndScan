@@ -74,7 +74,6 @@
 		217CD46BF394DDAB152C9DC36F7B7A64 /* ZXRSSExpandedDecodedChar.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1EAEC4C6BEA8EB513200EA53366D6D /* ZXRSSExpandedDecodedChar.m */; };
 		2250DE8D0D1907990EC49E888B131099 /* ZXAddressBookAUResultParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E11F172ABAEFC0685A06A0B4542087D /* ZXAddressBookAUResultParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		234110398E07F351E793B7BEDF6C83D3 /* ZXAI01392xDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 986EF07FD7E53341E4567C4DC35FED87 /* ZXAI01392xDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		248D3444FAF52FE1A4FA51136F125E99 /* Pods-LYQRCodeGenerateAndScan_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6934A24C8982F04D977DE64DE6068272 /* Pods-LYQRCodeGenerateAndScan_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25344E7ED29A81F175C9DE46CBA25B2E /* ZXMaxiCodeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD4FD5D68C6EF2F0DF518B75D470CC1 /* ZXMaxiCodeReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		255B146D6F78C0B632B36C3B973016A3 /* ZXByQuadrantReader.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1D37363203C56F2161AA23898BD770 /* ZXByQuadrantReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2567388A54734EF12BA59ECC74C909FF /* ZXGenericGF.m in Sources */ = {isa = PBXBuildFile; fileRef = CB95767CCE507624CEFAE25A65FD0279 /* ZXGenericGF.m */; };
@@ -296,7 +295,6 @@
 		94AB6830EEE181FC8762A3BA545C1A5B /* ZXVINParsedResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7918544EE6A0EBD3CFC92ED3B98E3CDF /* ZXVINParsedResult.m */; };
 		9541B8154EC750A194ABC2C9E5B141A2 /* ZXWifiResultParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3379C9C6C27A7C9C873FF17A0896108A /* ZXWifiResultParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9567BD360C55B9AA941332541B121FA7 /* ZXRSSPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F522CEFCE1048AF7700723BAB6E7F00 /* ZXRSSPair.m */; };
-		95708FB5FF8D4A1B6777A3AFF500D651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BABF55F2258666F10D06CA94882CC4 /* Foundation.framework */; };
 		95F5B71550AFC383EC03B3143FC03EB1 /* ly_scannerAnimationLine_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C30CD2FB0C4C93169F2B19014B0C27E7 /* ly_scannerAnimationLine_icon@2x.png */; };
 		9664EDF8A8EA143E0A3300C9E12D0568 /* ZXErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDF128EFEE544657A50EBF38C91499B /* ZXErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9849DFDC95423A3383E1859D1C821751 /* ZXAztecReader.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8041C0176B57F031683222F14B501E /* ZXAztecReader.m */; };
@@ -334,7 +332,7 @@
 		ACA1C179E22724DA49FBCC797B4A3406 /* ZXSMSMMSResultParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D3E58D656BE607A4A2533E825ADE98 /* ZXSMSMMSResultParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACC141FAC3ECAEF4CE3250533F17DEBD /* ZXUPCEANExtensionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 992DFF620849282A8F69A932B99129DC /* ZXUPCEANExtensionSupport.m */; };
 		ACDA867EF247964245F582E6FED491CE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D7F5C7F346931DB165E22CA3710488 /* CoreVideo.framework */; };
-		AD41B9455731507DCA1C57DEC63D954E /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7ECD137CD03C43C23FD66A4E4EFD0 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m */; };
+		AD41B9455731507DCA1C57DEC63D954E /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF7D73982703BCCE9A2D436CD60EF7 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m */; };
 		ADB89D39FAE12092C1D2E8E539ECFAAB /* ZXMonochromeRectangleDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 5786CF50A1A2CA5FAD09D9CAF260F19E /* ZXMonochromeRectangleDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE188B40FE6014ABCC0A08EC7F1A8DFA /* ZXByteArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C778786D3596C38D208BF9A7DA0D0C03 /* ZXByteArray.m */; };
 		AE473B231EA40CEA3EDCCB005E483FB1 /* ZXCode128Writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EA645A0A376310FC9141E9214F20D9 /* ZXCode128Writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -385,7 +383,7 @@
 		C2BB9ABD51232EF7668D630FFC8153B0 /* ZXISBNParsedResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 42644BA213ADED0B6E4A61680019BB27 /* ZXISBNParsedResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C3A4F01070F62D2F1E482F34137A43FD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811C631BE5C152F069288785E2D5FDB1 /* AVFoundation.framework */; };
 		C4033E8F79CFA826E94254A86C476A03 /* ZXDataMatrixC40Encoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6D9E0BDE8DFD7074343F4DBDB0DF0F /* ZXDataMatrixC40Encoder.m */; };
-		C4312B8E87FA8FC84591D6E21391CD54 /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B79B53D977CF2081F5EA8126D1C4CD /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4312B8E87FA8FC84591D6E21391CD54 /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1ED0FEC97E32A60D62D00D0029FD449 /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C445C23671F431A1F49A436A59B66392 /* ZXDataMatrixTextEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7782B1F07A1044C299914EFA06E5FF55 /* ZXDataMatrixTextEncoder.m */; };
 		C495734F75EF885F676A67932B781023 /* ZXPDF417DetectorResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F41777D57C6A261EF95C94ECC45A8D /* ZXPDF417DetectorResult.m */; };
 		C54DDA7A5BBEC84F3AEB5577F0456566 /* ZXPDF417ECErrorCorrection.m in Sources */ = {isa = PBXBuildFile; fileRef = 996C7EC91A18F84C15F57474B050AF8D /* ZXPDF417ECErrorCorrection.m */; };
@@ -501,7 +499,6 @@
 		FCE2A74305441CACAAC967668AADCD27 /* ZXAztecCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 571A8C24533B943568F4AA19F02A01E8 /* ZXAztecCode.m */; };
 		FCEBC2CB0059E8849493B004A6F8D6B0 /* ZXResultPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9706581FFBE4B4DE5755CB3C80C1F8 /* ZXResultPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD8A6567CB3F3C8FDA17672C3D89C43D /* ZXVINParsedResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C3AAD9F1655B9769542F7373B8A50A /* ZXVINParsedResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD8E1A44E6AD264064C82178EA2ED6FC /* Pods-LYQRCodeGenerateAndScan_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A93484D9287F5E1D78D6585EC58D26 /* Pods-LYQRCodeGenerateAndScan_Tests-dummy.m */; };
 		FDFA3F017966E63D5676C28A3B605C7C /* ZXITFReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55675F56371D9BFA42AD84C4D1E844 /* ZXITFReader.m */; };
 		FE3BEC48D682672ED4378F3B4FFAFC19 /* ZXProductResultParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1FE6A6A662FC21D5F956145597AA4 /* ZXProductResultParser.m */; };
 		FE61C6145A5B681F5885A952AD285973 /* ZXImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F60F6E1EE2F4DFC8D5C53DE815038 /* ZXImage.m */; };
@@ -516,13 +513,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5E2DECF70F60EBB03BBFFF437F603F07;
 			remoteInfo = "LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan";
-		};
-		39A3E4324736FFD67DB5BFE337B5F649 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D53629885A3535C02867A207859EFBD;
-			remoteInfo = "Pods-LYQRCodeGenerateAndScan_Example";
 		};
 		60DA074BAC42888C0383F7B792F85168 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -554,7 +544,6 @@
 		014F20D23932DA6150146D7F878F1FC8 /* ZXPDF417ResultMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417ResultMetadata.h; path = ZXingObjC/pdf417/ZXPDF417ResultMetadata.h; sourceTree = "<group>"; };
 		01B0FA0F91510C1058A6A3939B97985E /* LYQRCodeGenerateAndScan */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYQRCodeGenerateAndScan; path = LYQRCodeGenerateAndScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		028E0ADEC530291C007B60CF175F4656 /* ZXMaxiCodeBitMatrixParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMaxiCodeBitMatrixParser.m; path = ZXingObjC/maxicode/decoder/ZXMaxiCodeBitMatrixParser.m; sourceTree = "<group>"; };
-		032853B36D60B5ABBFBF429AB5447EC6 /* Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		038201BF767352F33B6C53A7F3357B06 /* ZXDecoderResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDecoderResult.m; path = ZXingObjC/common/ZXDecoderResult.m; sourceTree = "<group>"; };
 		038435D1D041CC6057E4623A5B6C0F6F /* ZXInvertedLuminanceSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXInvertedLuminanceSource.m; path = ZXingObjC/core/ZXInvertedLuminanceSource.m; sourceTree = "<group>"; };
 		040062FF57D90706C6E79BDEC2ADCAE4 /* ZXQRCodeDataBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeDataBlock.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeDataBlock.m; sourceTree = "<group>"; };
@@ -566,6 +555,7 @@
 		0846C51A1E2DE5C7C60EABCE357211F2 /* ZXCodaBarReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCodaBarReader.h; path = ZXingObjC/oned/ZXCodaBarReader.h; sourceTree = "<group>"; };
 		08A671F8D7CE8691D40244C45134CE58 /* ZXTelParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXTelParsedResult.m; path = ZXingObjC/client/result/ZXTelParsedResult.m; sourceTree = "<group>"; };
 		09B46D97ED3B510DF9179162F4C4C894 /* ZXAztecSimpleToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecSimpleToken.m; path = ZXingObjC/aztec/encoder/ZXAztecSimpleToken.m; sourceTree = "<group>"; };
+		0A102283D23055944C6766400EE9C19F /* Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0A55675F56371D9BFA42AD84C4D1E844 /* ZXITFReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXITFReader.m; path = ZXingObjC/oned/ZXITFReader.m; sourceTree = "<group>"; };
 		0A9B298018828A5B548A5B47B4C034F9 /* ZXQRCodeDecodedBitStreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeDecodedBitStreamParser.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeDecodedBitStreamParser.m; sourceTree = "<group>"; };
 		0A9CD660A5F2E7E7357FBD9CD2ABA291 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
@@ -663,7 +653,6 @@
 		34F7CD30BDD26BFF73F976038369AAC6 /* ZXQRCodeWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeWriter.m; path = ZXingObjC/qrcode/ZXQRCodeWriter.m; sourceTree = "<group>"; };
 		35BABF55F2258666F10D06CA94882CC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35D2C51AE38B0AB1140C3BDA7BD70D5A /* ZXPDF417DetectionResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417DetectionResult.m; path = ZXingObjC/pdf417/decoder/ZXPDF417DetectionResult.m; sourceTree = "<group>"; };
-		36276470BF6A9BB239E5A998079A9A31 /* Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3671F1A9D74BDAA4BDB7C5D3C624D937 /* ZXPDF417DetectorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417DetectorResult.h; path = ZXingObjC/pdf417/detector/ZXPDF417DetectorResult.h; sourceTree = "<group>"; };
 		369C889491538B7E250CE182DF8DC7CA /* ZXBinarizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBinarizer.h; path = ZXingObjC/core/ZXBinarizer.h; sourceTree = "<group>"; };
 		375CE306ABC3B4103E629EC4B950EC04 /* ZXQRCodeDecoderMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeDecoderMetaData.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeDecoderMetaData.h; sourceTree = "<group>"; };
@@ -703,10 +692,9 @@
 		4695907F826E91BA77BA5B9A7A5BB371 /* ZXingObjCPDF417.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXingObjCPDF417.h; path = ZXingObjC/pdf417/ZXingObjCPDF417.h; sourceTree = "<group>"; };
 		46C3AAD9F1655B9769542F7373B8A50A /* ZXVINParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXVINParsedResult.h; path = ZXingObjC/client/result/ZXVINParsedResult.h; sourceTree = "<group>"; };
 		47F2BF67EB717101FE68D7F75930721D /* ZXDataMatrixDecodedBitStreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixDecodedBitStreamParser.h; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDecodedBitStreamParser.h; sourceTree = "<group>"; };
-		48A1E2F763A5AE9C7F607D28826E023E /* Pods-LYQRCodeGenerateAndScan_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYQRCodeGenerateAndScan_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4852E36C15592565F624016D53C4F634 /* Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A5A56EF14193269C7672AB28841EAF1 /* ZXAI01392xDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI01392xDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01392xDecoder.m; sourceTree = "<group>"; };
 		4A75EEC8142BCF9CBEF9872738AAC238 /* ZXQRCodeFormatInformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeFormatInformation.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeFormatInformation.m; sourceTree = "<group>"; };
-		4AE7ECD137CD03C43C23FD66A4E4EFD0 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYQRCodeGenerateAndScan_Example-dummy.m"; sourceTree = "<group>"; };
 		4B713DEACED4AD10398B9DB92042F275 /* ZXAztecEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecEncoder.h; path = ZXingObjC/aztec/encoder/ZXAztecEncoder.h; sourceTree = "<group>"; };
 		4B86F4C5C5E74B446FE4C8358246A9DC /* ZXEmailAddressParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXEmailAddressParsedResult.m; path = ZXingObjC/client/result/ZXEmailAddressParsedResult.m; sourceTree = "<group>"; };
 		4C290E7E1BD2D6E93BAEBB2E876B3918 /* ZXEAN13Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEAN13Writer.h; path = ZXingObjC/oned/ZXEAN13Writer.h; sourceTree = "<group>"; };
@@ -730,7 +718,6 @@
 		5138F5E612506A8E6A8D1BDF5BC74132 /* ZXDataMatrixDataBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixDataBlock.m; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDataBlock.m; sourceTree = "<group>"; };
 		519BE48FF3FC57EE5AE6C897840A2785 /* ZXPDF417BarcodeRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417BarcodeRow.h; path = ZXingObjC/pdf417/encoder/ZXPDF417BarcodeRow.h; sourceTree = "<group>"; };
 		52EC87231579E206961A5DACFB0DDEAC /* ZXAI013103decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI013103decoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI013103decoder.h; sourceTree = "<group>"; };
-		534B23356A21737D71D8332D99C7CCBA /* Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		538F62B34D7E47BF352BAC4B14F4E6B1 /* ZXAztecWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecWriter.m; path = ZXingObjC/aztec/ZXAztecWriter.m; sourceTree = "<group>"; };
 		54922AF193D9DFA65FA1D0AA694B98C9 /* ZXAI01AndOtherAIs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI01AndOtherAIs.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01AndOtherAIs.h; sourceTree = "<group>"; };
 		5518160FB75EAF6728BCE660927A70DA /* ZXUPCEReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCEReader.m; path = ZXingObjC/oned/ZXUPCEReader.m; sourceTree = "<group>"; };
@@ -756,7 +743,6 @@
 		5C89CDC138ED44715F24DE837370FC2F /* ZXBitArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBitArray.h; path = ZXingObjC/common/ZXBitArray.h; sourceTree = "<group>"; };
 		5CE26B9C968CF5AB7D0157B1356883FB /* ZXTextParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXTextParsedResult.m; path = ZXingObjC/client/result/ZXTextParsedResult.m; sourceTree = "<group>"; };
 		5D443A595ED3731D0FA1094193EE44C4 /* ZXAztecHighLevelEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecHighLevelEncoder.m; path = ZXingObjC/aztec/encoder/ZXAztecHighLevelEncoder.m; sourceTree = "<group>"; };
-		5D96197EB2CA8616EB6E54254826F8A4 /* Pods-LYQRCodeGenerateAndScan_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYQRCodeGenerateAndScan_Example.modulemap"; sourceTree = "<group>"; };
 		5DB69C2B2C1A6037FC1295779A497A3C /* ZXAI01320xDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI01320xDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01320xDecoder.m; sourceTree = "<group>"; };
 		5DD535293204F18AD1A9096E6485D020 /* ZXCaptureDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCaptureDelegate.h; path = ZXingObjC/client/ZXCaptureDelegate.h; sourceTree = "<group>"; };
 		5EB718CA0E2281861C32520ED1F6534F /* ZXDataMatrixReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixReader.h; path = ZXingObjC/datamatrix/ZXDataMatrixReader.h; sourceTree = "<group>"; };
@@ -780,7 +766,6 @@
 		686CD264D59DBD50D5C2A32C71180B96 /* ZXBoolArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBoolArray.h; path = ZXingObjC/common/ZXBoolArray.h; sourceTree = "<group>"; };
 		68BA171B4782E5384E34743D5884591B /* ZXEAN13Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXEAN13Writer.m; path = ZXingObjC/oned/ZXEAN13Writer.m; sourceTree = "<group>"; };
 		68FAC8FD9BD97699B163A451D1DA620D /* ZXPDF417CodewordDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417CodewordDecoder.m; path = ZXingObjC/pdf417/decoder/ZXPDF417CodewordDecoder.m; sourceTree = "<group>"; };
-		6934A24C8982F04D977DE64DE6068272 /* Pods-LYQRCodeGenerateAndScan_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYQRCodeGenerateAndScan_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6AF9DBE38D68032690FE506B1810BFDA /* ZXAI01weightDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI01weightDecoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01weightDecoder.h; sourceTree = "<group>"; };
 		6B27F26BF9CA928B79D359DBD0B4DC4D /* ZXRSSPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSPair.h; path = ZXingObjC/oned/rss/ZXRSSPair.h; sourceTree = "<group>"; };
 		6C3108E88BC36D7470C943F0E986BF51 /* ZXingObjCQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXingObjCQRCode.h; path = ZXingObjC/qrcode/ZXingObjCQRCode.h; sourceTree = "<group>"; };
@@ -837,7 +822,7 @@
 		80E281D0F90AC5C32B055A840CB7F866 /* ZXBizcardResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBizcardResultParser.h; path = ZXingObjC/client/result/ZXBizcardResultParser.h; sourceTree = "<group>"; };
 		8104B736565C222DD1E5C99EF357DE08 /* ZXMaxiCodeDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMaxiCodeDecoder.m; path = ZXingObjC/maxicode/decoder/ZXMaxiCodeDecoder.m; sourceTree = "<group>"; };
 		811C631BE5C152F069288785E2D5FDB1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		81FAEA6C004EF7758E1C5C42CA42F930 /* Pods-LYQRCodeGenerateAndScan_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYQRCodeGenerateAndScan_Example-frameworks.sh"; sourceTree = "<group>"; };
+		81E9F7366C99197DA467FC4D1BB04AD4 /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		822E5D4D484529CC2A76F1E962FA8912 /* ZXQRCodeFinderPatternInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeFinderPatternInfo.m; path = ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternInfo.m; sourceTree = "<group>"; };
 		8286604432589D3A1D2D3D6165384FF2 /* ZXRSSExpandedReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedReader.h; path = ZXingObjC/oned/rss/expanded/ZXRSSExpandedReader.h; sourceTree = "<group>"; };
 		836577D94472FE59E69D46B9E3C65317 /* ZXWhiteRectangleDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXWhiteRectangleDetector.m; path = ZXingObjC/common/detector/ZXWhiteRectangleDetector.m; sourceTree = "<group>"; };
@@ -855,7 +840,6 @@
 		884C73DA8084F7979ED2B0BDF692A992 /* ZXISBNParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXISBNParsedResult.m; path = ZXingObjC/client/result/ZXISBNParsedResult.m; sourceTree = "<group>"; };
 		88C5CAB48F09BCA05D1DA89CDE077A5B /* ZXResultMetadataType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXResultMetadataType.h; path = ZXingObjC/core/ZXResultMetadataType.h; sourceTree = "<group>"; };
 		89264F8F21B01EB991E8AE2D31625EC8 /* ZXPDF417BarcodeMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417BarcodeMatrix.h; path = ZXingObjC/pdf417/encoder/ZXPDF417BarcodeMatrix.h; sourceTree = "<group>"; };
-		8A7431612A38103857C515DCB8563B6B /* Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8AA54D5F76737D25E62004C87E5E91E1 /* ZXAztecEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecEncoder.m; path = ZXingObjC/aztec/encoder/ZXAztecEncoder.m; sourceTree = "<group>"; };
 		8AD504B169A704E4CA0C4F846C8F6C0B /* ZXUPCAReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCAReader.m; path = ZXingObjC/oned/ZXUPCAReader.m; sourceTree = "<group>"; };
 		8B6A0B77D1A1F52AE488D1C3F8A3C51A /* ZXQRCodeDataMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeDataMask.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeDataMask.h; sourceTree = "<group>"; };
@@ -865,13 +849,13 @@
 		8D07907E357A4534A44A90591C27A516 /* ZXBitArrayBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBitArrayBuilder.m; path = ZXingObjC/oned/rss/expanded/ZXBitArrayBuilder.m; sourceTree = "<group>"; };
 		8DDADC325BEAF57BA53AE43E61F6EA8D /* ZXMultiFormatUPCEANReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMultiFormatUPCEANReader.m; path = ZXingObjC/oned/ZXMultiFormatUPCEANReader.m; sourceTree = "<group>"; };
 		8ECB02AC42536E9AC337D791DECEC45A /* ZXPDF417ScanningDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417ScanningDecoder.m; path = ZXingObjC/pdf417/decoder/ZXPDF417ScanningDecoder.m; sourceTree = "<group>"; };
+		8FBF7D73982703BCCE9A2D436CD60EF7 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYQRCodeGenerateAndScan_Example-dummy.m"; sourceTree = "<group>"; };
 		8FC61FB0CA8857432B31D66D6289020A /* ZXPDF417BoundingBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417BoundingBox.m; path = ZXingObjC/pdf417/decoder/ZXPDF417BoundingBox.m; sourceTree = "<group>"; };
 		8FD29C601CDAC3F8A4FC41D814ACB213 /* ZXIntArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXIntArray.h; path = ZXingObjC/common/ZXIntArray.h; sourceTree = "<group>"; };
 		90B14FD57B0C421DBC7C040E13F2498D /* ZXBitSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBitSource.h; path = ZXingObjC/common/ZXBitSource.h; sourceTree = "<group>"; };
 		91A3549EADD1CEA5B559079A1F72F69C /* ZXQRCodeBitMatrixParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeBitMatrixParser.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeBitMatrixParser.h; sourceTree = "<group>"; };
 		91EA645A0A376310FC9141E9214F20D9 /* ZXCode128Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCode128Writer.h; path = ZXingObjC/oned/ZXCode128Writer.h; sourceTree = "<group>"; };
 		92AED9DD4F02E0FA1BF8C02A115887E7 /* ZXingObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZXingObjC-dummy.m"; sourceTree = "<group>"; };
-		93A93484D9287F5E1D78D6585EC58D26 /* Pods-LYQRCodeGenerateAndScan_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYQRCodeGenerateAndScan_Tests-dummy.m"; sourceTree = "<group>"; };
 		9476BB48E989DBCFA41CB09A2AB3F3DE /* ZXAddressBookAUResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAddressBookAUResultParser.m; path = ZXingObjC/client/result/ZXAddressBookAUResultParser.m; sourceTree = "<group>"; };
 		961561194CBD69F78EDFB7BF45E60E42 /* ZXDataMatrixDecodedBitStreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixDecodedBitStreamParser.m; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDecodedBitStreamParser.m; sourceTree = "<group>"; };
 		96ADE6D9E06EBD7BB9F31860C894D545 /* ZXQRCodeErrorCorrectionLevel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeErrorCorrectionLevel.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeErrorCorrectionLevel.m; sourceTree = "<group>"; };
@@ -887,7 +871,6 @@
 		9B0F4267BB5A4B04AD762B6F61CDD4BE /* ZXQRCodeBitMatrixParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeBitMatrixParser.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeBitMatrixParser.m; sourceTree = "<group>"; };
 		9B6BD75CE9E994241ACE5BE95DD658E3 /* ZXRSSFinderPattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSFinderPattern.m; path = ZXingObjC/oned/rss/ZXRSSFinderPattern.m; sourceTree = "<group>"; };
 		9B7DDE689ABD1474446B1170E324EF49 /* ZXGenericGF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGenericGF.h; path = ZXingObjC/common/reedsolomon/ZXGenericGF.h; sourceTree = "<group>"; };
-		9B80A6A98EF47C62FE4CF19899B2E1A4 /* Pods-LYQRCodeGenerateAndScan_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYQRCodeGenerateAndScan_Example-Info.plist"; sourceTree = "<group>"; };
 		9CAD50C790BF5B06EF1A7184CDE2F8A8 /* ZXQRCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCode.h; path = ZXingObjC/qrcode/encoder/ZXQRCode.h; sourceTree = "<group>"; };
 		9D4017AE1E8316F333AD8B23DB81ABA6 /* ZXProductParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXProductParsedResult.h; path = ZXingObjC/client/result/ZXProductParsedResult.h; sourceTree = "<group>"; };
 		9D4C6F7CE26C17406FD118908D3C16F2 /* ZXITFWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXITFWriter.m; path = ZXingObjC/oned/ZXITFWriter.m; sourceTree = "<group>"; };
@@ -916,7 +899,6 @@
 		AA8665F0CC1ED6901C2B7076587ACF76 /* ZXExpandedProductResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXExpandedProductResultParser.m; path = ZXingObjC/client/result/ZXExpandedProductResultParser.m; sourceTree = "<group>"; };
 		AAC48F9C716694F2EE6985E0CB343EA8 /* ZXProductParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXProductParsedResult.m; path = ZXingObjC/client/result/ZXProductParsedResult.m; sourceTree = "<group>"; };
 		AAE2B8308408E009083A2B241F929757 /* ZXDataMatrixEncoderContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixEncoderContext.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixEncoderContext.h; sourceTree = "<group>"; };
-		AB08981ADDAF996B2B472251EB0543FC /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ABCD7EBDB9433178CC93C3816008A50E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AC36404E49A977179DB212B3DA5989AD /* ZXUPCEANReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCEANReader.h; path = ZXingObjC/oned/ZXUPCEANReader.h; sourceTree = "<group>"; };
 		AE5D51070B263259BA681C1350BEF710 /* ZXQRCodeBlockPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeBlockPair.h; path = ZXingObjC/qrcode/encoder/ZXQRCodeBlockPair.h; sourceTree = "<group>"; };
@@ -926,10 +908,9 @@
 		B294F8D8B4BA193DEE0ED19FC9E35301 /* ZXVEventResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXVEventResultParser.m; path = ZXingObjC/client/result/ZXVEventResultParser.m; sourceTree = "<group>"; };
 		B3EFED871A961E6327D3431EF74B1D2B /* ZXAztecWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecWriter.h; path = ZXingObjC/aztec/ZXAztecWriter.h; sourceTree = "<group>"; };
 		B3F45DF78536FEFACC53C8F927073565 /* ZXITFReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXITFReader.h; path = ZXingObjC/oned/ZXITFReader.h; sourceTree = "<group>"; };
-		B501F93599F65056CD790DD8FAB66116 /* Pods-LYQRCodeGenerateAndScan_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYQRCodeGenerateAndScan_Tests.modulemap"; sourceTree = "<group>"; };
 		B502CAB4B3DB32460DB928040B31B4EE /* ZXQRCodeAlignmentPatternFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeAlignmentPatternFinder.h; path = ZXingObjC/qrcode/detector/ZXQRCodeAlignmentPatternFinder.h; sourceTree = "<group>"; };
 		B583906E7170419AB6D0C671E9008B68 /* ZXDataMatrixVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixVersion.h; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixVersion.h; sourceTree = "<group>"; };
-		B5B79B53D977CF2081F5EA8126D1C4CD /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYQRCodeGenerateAndScan_Example-umbrella.h"; sourceTree = "<group>"; };
+		B5AF885D372EB4BC612286C805CAE9AB /* Pods-LYQRCodeGenerateAndScan_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYQRCodeGenerateAndScan_Example-Info.plist"; sourceTree = "<group>"; };
 		B83862EE2A0065784E4FF75372B9A320 /* ZXDecimal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDecimal.m; path = ZXingObjC/common/ZXDecimal.m; sourceTree = "<group>"; };
 		B8DF4BF0AE2DD878DF14C943EBBD8E5D /* ZXQRCodeVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeVersion.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeVersion.h; sourceTree = "<group>"; };
 		B9E45381D5DDE36A0D2AB563D7266B35 /* ZXGenericGFPoly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXGenericGFPoly.m; path = ZXingObjC/common/reedsolomon/ZXGenericGFPoly.m; sourceTree = "<group>"; };
@@ -948,10 +929,11 @@
 		BEEA7DDAB1296884A7AAD0797929EDF0 /* ZXAI01weightDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI01weightDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI01weightDecoder.m; sourceTree = "<group>"; };
 		BEF7573B2902DDD1DE9E8318BA440E89 /* ly_flashlight_On_icon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ly_flashlight_On_icon@3x.png"; path = "LYQRCodeGenerateAndScan/Assets/ly_flashlight_On_icon@3x.png"; sourceTree = "<group>"; };
 		BF28847EC6468A84BB0F5022DC5EFFDC /* ZXRSSUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSUtils.h; path = ZXingObjC/oned/rss/ZXRSSUtils.h; sourceTree = "<group>"; };
-		BFAF0F34469A87CC4548022A9D1767D2 /* Pods-LYQRCodeGenerateAndScan_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYQRCodeGenerateAndScan_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFF1FE30590B734D4B7FA0BD8035C28C /* Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C072D13E25D0D7830A5885EB42FAF052 /* ZXDataMatrixSymbolInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixSymbolInfo.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixSymbolInfo.m; sourceTree = "<group>"; };
 		C182B790F1909F50DD324A74C61277AC /* ZXAI013x0xDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAI013x0xDecoder.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI013x0xDecoder.m; sourceTree = "<group>"; };
 		C1CD3861BA4DA671A673B10A20C5040E /* ZXRSSExpandedDecodedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedDecodedObject.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedDecodedObject.h; sourceTree = "<group>"; };
+		C1ED0FEC97E32A60D62D00D0029FD449 /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYQRCodeGenerateAndScan_Example-umbrella.h"; sourceTree = "<group>"; };
 		C1ED299629B0B572BD7F0F7454EE0157 /* ZXCode39Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCode39Reader.h; path = ZXingObjC/oned/ZXCode39Reader.h; sourceTree = "<group>"; };
 		C20A5F8E5B856DE3266CD100122B9A27 /* ZXPDF417ResultMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417ResultMetadata.m; path = ZXingObjC/pdf417/ZXPDF417ResultMetadata.m; sourceTree = "<group>"; };
 		C2692316D3BFA3300FA0BBF984BA68C8 /* ZXWifiResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXWifiResultParser.m; path = ZXingObjC/client/result/ZXWifiResultParser.m; sourceTree = "<group>"; };
@@ -979,6 +961,7 @@
 		C9301903A7731B214B7BAF7145990FE9 /* ZXEncodeHints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXEncodeHints.m; path = ZXingObjC/core/ZXEncodeHints.m; sourceTree = "<group>"; };
 		C9B231D5174125814BBEC6FC0D4D4DE1 /* ZXDataMatrixX12Encoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixX12Encoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixX12Encoder.m; sourceTree = "<group>"; };
 		C9B2766772D3CBC659062403A17597B4 /* ZXGeoParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGeoParsedResult.h; path = ZXingObjC/client/result/ZXGeoParsedResult.h; sourceTree = "<group>"; };
+		CAAFFC289603132E4F5A770FB2A6471A /* Pods-LYQRCodeGenerateAndScan_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYQRCodeGenerateAndScan_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CB17C05C85F0929B670845ED12ADADBC /* ZXMultiDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMultiDetector.m; path = ZXingObjC/qrcode/multi/detector/ZXMultiDetector.m; sourceTree = "<group>"; };
 		CB49C2EF1A802647A2BC29D74872A742 /* ZXPDF417Detector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPDF417Detector.h; path = ZXingObjC/pdf417/detector/ZXPDF417Detector.h; sourceTree = "<group>"; };
 		CB4C80FA731F65D9087244E4162FDE18 /* ZXUPCEANReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCEANReader.m; path = ZXingObjC/oned/ZXUPCEANReader.m; sourceTree = "<group>"; };
@@ -1032,9 +1015,7 @@
 		E49429B09DFF530980CA263A56559F80 /* ZXPDF417Dimensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417Dimensions.m; path = ZXingObjC/pdf417/encoder/ZXPDF417Dimensions.m; sourceTree = "<group>"; };
 		E542A0C387DE482BE876B18D6EA0D8FB /* ZXRSSExpandedBlockParsedResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedBlockParsedResult.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedBlockParsedResult.m; sourceTree = "<group>"; };
 		E5EA2F36A299210AE959ABAAA7229E70 /* ZXUPCEANExtensionSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCEANExtensionSupport.h; path = ZXingObjC/oned/ZXUPCEANExtensionSupport.h; sourceTree = "<group>"; };
-		E73D43EFE145A9E5F59E1B9EEDCEFB03 /* Pods-LYQRCodeGenerateAndScan_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LYQRCodeGenerateAndScan_Tests"; path = Pods_LYQRCodeGenerateAndScan_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76C51B76AF48D99F4E7EB7BA347D733 /* ZXVEventResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXVEventResultParser.h; path = ZXingObjC/client/result/ZXVEventResultParser.h; sourceTree = "<group>"; };
-		E7E864ED8829BFD00BA7E2AEC80597E8 /* Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E840BC1C1DDD024B1D76C53C763C39F0 /* ZXRSSExpandedCurrentParsingState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedCurrentParsingState.m; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedCurrentParsingState.m; sourceTree = "<group>"; };
 		E8A699BD4DB55DA5F3AB40D8A88C3826 /* ZXUPCAWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCAWriter.h; path = ZXingObjC/oned/ZXUPCAWriter.h; sourceTree = "<group>"; };
 		E8E0BD14B8A873BBC73DE4D66B1D85D6 /* ZXModulusGF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXModulusGF.h; path = ZXingObjC/pdf417/decoder/ec/ZXModulusGF.h; sourceTree = "<group>"; };
@@ -1056,13 +1037,13 @@
 		F5D93E3BDBC0D2E874427A424497878F /* ZXQRCodeMaskUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeMaskUtil.h; path = ZXingObjC/qrcode/encoder/ZXQRCodeMaskUtil.h; sourceTree = "<group>"; };
 		F70A38687F377769AF1FE1D255BBB319 /* ZXUPCEANExtension5Support.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCEANExtension5Support.h; path = ZXingObjC/oned/ZXUPCEANExtension5Support.h; sourceTree = "<group>"; };
 		F783AA6150AB25272AA18E5D49BFA83B /* ZXDataMatrixDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixDecoder.h; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDecoder.h; sourceTree = "<group>"; };
-		F81C961DEEE97E2FFA5DF1CFEE57B694 /* Pods-LYQRCodeGenerateAndScan_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYQRCodeGenerateAndScan_Tests-Info.plist"; sourceTree = "<group>"; };
 		F870DC357E934F0FF4E76F4641E21443 /* ZXUPCAWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCAWriter.m; path = ZXingObjC/oned/ZXUPCAWriter.m; sourceTree = "<group>"; };
 		F91587787F8BF1F7108CC1BCB7322B31 /* ZXDataMatrixX12Encoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixX12Encoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixX12Encoder.h; sourceTree = "<group>"; };
 		F952025FC3F78CD90E1AE4D81BAC49B7 /* ZXingObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZXingObjC-umbrella.h"; sourceTree = "<group>"; };
 		F9AAD1CEBD37F05C7FE988FD14F3EC1A /* ZXDataMatrixHighLevelEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixHighLevelEncoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixHighLevelEncoder.m; sourceTree = "<group>"; };
 		F9B0D97916991C546747E733296F2473 /* ZXAztecReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecReader.h; path = ZXingObjC/aztec/ZXAztecReader.h; sourceTree = "<group>"; };
 		F9FC5A9F7F2229EED417F373BA4CAAE4 /* ZXDataMatrixDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixDecoder.m; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixDecoder.m; sourceTree = "<group>"; };
+		FAA998A64C5B91EAF5A094336E790677 /* Pods-LYQRCodeGenerateAndScan_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LYQRCodeGenerateAndScan_Example.modulemap"; sourceTree = "<group>"; };
 		FACA3659CBEA8D694B390ECC099FE7C4 /* ZXEAN8Reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEAN8Reader.h; path = ZXingObjC/oned/ZXEAN8Reader.h; sourceTree = "<group>"; };
 		FB969636B4F7831DDB9E8E14E7171DEF /* ZXRSSExpandedReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedReader.m; path = ZXingObjC/oned/rss/expanded/ZXRSSExpandedReader.m; sourceTree = "<group>"; };
 		FBF050C9F0B598EAC70092F3815CBE5C /* ZXDataMatrixDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixDetector.m; path = ZXingObjC/datamatrix/detector/ZXDataMatrixDetector.m; sourceTree = "<group>"; };
@@ -1117,14 +1098,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5B7AF22467203334CB72692F7F43682 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95708FB5FF8D4A1B6777A3AFF500D651 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1159,6 +1132,34 @@
 			path = "../Target Support Files/ZXingObjC";
 			sourceTree = "<group>";
 		};
+		365C2C9EBC0F4D5B38EA50F66C5E476F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B0FA0F91510C1058A6A3939B97985E /* LYQRCodeGenerateAndScan */,
+				86457802EBA6448C1502DF5E0ED68238 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan */,
+				C4081E5BC54A5E6A4DEB8DC7622F62F0 /* Pods-LYQRCodeGenerateAndScan_Example */,
+				6F73B6C7971A37DCD5170ED89E3DF741 /* ZXingObjC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		391B88AAC9135CBA6139B845CE20C959 /* Pods-LYQRCodeGenerateAndScan_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FAA998A64C5B91EAF5A094336E790677 /* Pods-LYQRCodeGenerateAndScan_Example.modulemap */,
+				0A102283D23055944C6766400EE9C19F /* Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.markdown */,
+				4852E36C15592565F624016D53C4F634 /* Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.plist */,
+				8FBF7D73982703BCCE9A2D436CD60EF7 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m */,
+				CAAFFC289603132E4F5A770FB2A6471A /* Pods-LYQRCodeGenerateAndScan_Example-frameworks.sh */,
+				B5AF885D372EB4BC612286C805CAE9AB /* Pods-LYQRCodeGenerateAndScan_Example-Info.plist */,
+				C1ED0FEC97E32A60D62D00D0029FD449 /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h */,
+				81E9F7366C99197DA467FC4D1BB04AD4 /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */,
+				BFF1FE30590B734D4B7FA0BD8035C28C /* Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig */,
+			);
+			name = "Pods-LYQRCodeGenerateAndScan_Example";
+			path = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Example";
+			sourceTree = "<group>";
+		};
 		4B7EF2FBBD41393161643499524A3906 /* ZXingObjC */ = {
 			isa = PBXGroup;
 			children = (
@@ -1185,22 +1186,6 @@
 				D8D3271B8295592AA05F563FFBF093AC /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		86E424EEA23D438E1BE40026B793D082 /* Pods-LYQRCodeGenerateAndScan_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				B501F93599F65056CD790DD8FAB66116 /* Pods-LYQRCodeGenerateAndScan_Tests.modulemap */,
-				48A1E2F763A5AE9C7F607D28826E023E /* Pods-LYQRCodeGenerateAndScan_Tests-acknowledgements.markdown */,
-				BFAF0F34469A87CC4548022A9D1767D2 /* Pods-LYQRCodeGenerateAndScan_Tests-acknowledgements.plist */,
-				93A93484D9287F5E1D78D6585EC58D26 /* Pods-LYQRCodeGenerateAndScan_Tests-dummy.m */,
-				F81C961DEEE97E2FFA5DF1CFEE57B694 /* Pods-LYQRCodeGenerateAndScan_Tests-Info.plist */,
-				6934A24C8982F04D977DE64DE6068272 /* Pods-LYQRCodeGenerateAndScan_Tests-umbrella.h */,
-				032853B36D60B5ABBFBF429AB5447EC6 /* Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig */,
-				534B23356A21737D71D8332D99C7CCBA /* Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig */,
-			);
-			name = "Pods-LYQRCodeGenerateAndScan_Tests";
-			path = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Tests";
 			sourceTree = "<group>";
 		};
 		8D99D8D68C505E4336DCE607AB4A93B6 /* Development Pods */ = {
@@ -1244,26 +1229,9 @@
 				8D99D8D68C505E4336DCE607AB4A93B6 /* Development Pods */,
 				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
 				DC63FD730A48EE570AF9E3D6125AB20D /* Pods */,
-				E15B06CBFC7F4804A7BB64656ADC35A8 /* Products */,
-				F95F56AB658C3C2788FC35F38A36050D /* Targets Support Files */,
+				365C2C9EBC0F4D5B38EA50F66C5E476F /* Products */,
+				DF52B4386180840540AC37D9E6072D99 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF33E7DB0E44A29793CC4FCC85683EB5 /* Pods-LYQRCodeGenerateAndScan_Example */ = {
-			isa = PBXGroup;
-			children = (
-				5D96197EB2CA8616EB6E54254826F8A4 /* Pods-LYQRCodeGenerateAndScan_Example.modulemap */,
-				8A7431612A38103857C515DCB8563B6B /* Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.markdown */,
-				E7E864ED8829BFD00BA7E2AEC80597E8 /* Pods-LYQRCodeGenerateAndScan_Example-acknowledgements.plist */,
-				4AE7ECD137CD03C43C23FD66A4E4EFD0 /* Pods-LYQRCodeGenerateAndScan_Example-dummy.m */,
-				81FAEA6C004EF7758E1C5C42CA42F930 /* Pods-LYQRCodeGenerateAndScan_Example-frameworks.sh */,
-				9B80A6A98EF47C62FE4CF19899B2E1A4 /* Pods-LYQRCodeGenerateAndScan_Example-Info.plist */,
-				B5B79B53D977CF2081F5EA8126D1C4CD /* Pods-LYQRCodeGenerateAndScan_Example-umbrella.h */,
-				AB08981ADDAF996B2B472251EB0543FC /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */,
-				36276470BF6A9BB239E5A998079A9A31 /* Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig */,
-			);
-			name = "Pods-LYQRCodeGenerateAndScan_Example";
-			path = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Example";
 			sourceTree = "<group>";
 		};
 		D8D3271B8295592AA05F563FFBF093AC /* iOS */ = {
@@ -1286,6 +1254,14 @@
 				4B7EF2FBBD41393161643499524A3906 /* ZXingObjC */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF52B4386180840540AC37D9E6072D99 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				391B88AAC9135CBA6139B845CE20C959 /* Pods-LYQRCodeGenerateAndScan_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		E1354B8F4C347517F488522078AAE2B8 /* All */ = {
@@ -1760,27 +1736,6 @@
 			name = All;
 			sourceTree = "<group>";
 		};
-		E15B06CBFC7F4804A7BB64656ADC35A8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				01B0FA0F91510C1058A6A3939B97985E /* LYQRCodeGenerateAndScan */,
-				86457802EBA6448C1502DF5E0ED68238 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan */,
-				C4081E5BC54A5E6A4DEB8DC7622F62F0 /* Pods-LYQRCodeGenerateAndScan_Example */,
-				E73D43EFE145A9E5F59E1B9EEDCEFB03 /* Pods-LYQRCodeGenerateAndScan_Tests */,
-				6F73B6C7971A37DCD5170ED89E3DF741 /* ZXingObjC */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F95F56AB658C3C2788FC35F38A36050D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CF33E7DB0E44A29793CC4FCC85683EB5 /* Pods-LYQRCodeGenerateAndScan_Example */,
-				86E424EEA23D438E1BE40026B793D082 /* Pods-LYQRCodeGenerateAndScan_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1793,14 +1748,6 @@
 				A3B669BE07D7DBD26EC0CC3A5804E1BF /* LYQRCodeManager.h in Headers */,
 				EA1E99D6847AC893760F69F4D4D4EF37 /* LYQRCodeViewController.h in Headers */,
 				47D7E045DBA97BB160B24CF05556021E /* LYScannerView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B729FFDD57450311D8186B6C009DD8EA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				248D3444FAF52FE1A4FA51136F125E99 /* Pods-LYQRCodeGenerateAndScan_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2139,25 +2086,6 @@
 			productReference = C4081E5BC54A5E6A4DEB8DC7622F62F0 /* Pods-LYQRCodeGenerateAndScan_Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		6DCF9BBBF1473843A74B8DB2933A0EEB /* Pods-LYQRCodeGenerateAndScan_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E226F019895F9C7FA1D4369699CF35D2 /* Build configuration list for PBXNativeTarget "Pods-LYQRCodeGenerateAndScan_Tests" */;
-			buildPhases = (
-				B729FFDD57450311D8186B6C009DD8EA /* Headers */,
-				7CB43B1E524EF5401CC2D4BBF1B52E53 /* Sources */,
-				E5B7AF22467203334CB72692F7F43682 /* Frameworks */,
-				E4AAE102D8EA4C983DD436999EAEFB97 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B82A32C12CD42EF69D193AC6DB3EE905 /* PBXTargetDependency */,
-			);
-			name = "Pods-LYQRCodeGenerateAndScan_Tests";
-			productName = Pods_LYQRCodeGenerateAndScan_Tests;
-			productReference = E73D43EFE145A9E5F59E1B9EEDCEFB03 /* Pods-LYQRCodeGenerateAndScan_Tests */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2176,14 +2104,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E15B06CBFC7F4804A7BB64656ADC35A8 /* Products */;
+			productRefGroup = 365C2C9EBC0F4D5B38EA50F66C5E476F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				625883D85B319A437040ABC45C84A031 /* LYQRCodeGenerateAndScan */,
 				5E2DECF70F60EBB03BBFFF437F603F07 /* LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan */,
 				6D53629885A3535C02867A207859EFBD /* Pods-LYQRCodeGenerateAndScan_Example */,
-				6DCF9BBBF1473843A74B8DB2933A0EEB /* Pods-LYQRCodeGenerateAndScan_Tests */,
 				30950EABCD5EFA0462FC017837EB16BE /* ZXingObjC */,
 			);
 		};
@@ -2220,13 +2147,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4AAE102D8EA4C983DD436999EAEFB97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F56F1B49D3D15A43FC311B5950BAFDC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2249,14 +2169,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CB43B1E524EF5401CC2D4BBF1B52E53 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD8E1A44E6AD264064C82178EA2ED6FC /* Pods-LYQRCodeGenerateAndScan_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2519,12 +2431,6 @@
 			target = 30950EABCD5EFA0462FC017837EB16BE /* ZXingObjC */;
 			targetProxy = BF122B58F9C85B5D5F38A3007E7819EC /* PBXContainerItemProxy */;
 		};
-		B82A32C12CD42EF69D193AC6DB3EE905 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LYQRCodeGenerateAndScan_Example";
-			target = 6D53629885A3535C02867A207859EFBD /* Pods-LYQRCodeGenerateAndScan_Example */;
-			targetProxy = 39A3E4324736FFD67DB5BFE337B5F649 /* PBXContainerItemProxy */;
-		};
 		BA4EBD48A47A66A3DADB6C0EE47BB0B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZXingObjC;
@@ -2542,10 +2448,11 @@
 /* Begin XCBuildConfiguration section */
 		266D80964ACEF9337CFD1F320680EE2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36276470BF6A9BB239E5A998079A9A31 /* Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig */;
+			baseConfigurationReference = BFF1FE30590B734D4B7FA0BD8035C28C /* Pods-LYQRCodeGenerateAndScan_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2578,6 +2485,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38F61D8DB8D492ACF2C29A30530E6645 /* ZXingObjC.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2609,6 +2517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B3EEBB723904E6094ACE0EEA697025D /* ZXingObjC.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2639,6 +2548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14C08ED54FED56E59E42365143866527 /* LYQRCodeGenerateAndScan.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2732,6 +2642,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E048D0107725F2C4CEDF3467BBBD5D4C /* LYQRCodeGenerateAndScan.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LYQRCodeGenerateAndScan";
 				IBSC_MODULE = LYQRCodeGenerateAndScan;
 				INFOPLIST_FILE = "Target Support Files/LYQRCodeGenerateAndScan/ResourceBundle-LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan-Info.plist";
@@ -2743,73 +2654,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
-		};
-		A0AC39313535393736757E0C1223FA8E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 032853B36D60B5ABBFBF429AB5447EC6 /* Pods-LYQRCodeGenerateAndScan_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Tests/Pods-LYQRCodeGenerateAndScan_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Tests/Pods-LYQRCodeGenerateAndScan_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CF67E830747F43E8E9C15EB26068E337 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534B23356A21737D71D8332D99C7CCBA /* Pods-LYQRCodeGenerateAndScan_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Tests/Pods-LYQRCodeGenerateAndScan_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LYQRCodeGenerateAndScan_Tests/Pods-LYQRCodeGenerateAndScan_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2879,10 +2723,11 @@
 		};
 		D9A8EB37A89DB1CD3833EDD557131B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB08981ADDAF996B2B472251EB0543FC /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */;
+			baseConfigurationReference = 81E9F7366C99197DA467FC4D1BB04AD4 /* Pods-LYQRCodeGenerateAndScan_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2914,6 +2759,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14C08ED54FED56E59E42365143866527 /* LYQRCodeGenerateAndScan.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LYQRCodeGenerateAndScan";
 				IBSC_MODULE = LYQRCodeGenerateAndScan;
 				INFOPLIST_FILE = "Target Support Files/LYQRCodeGenerateAndScan/ResourceBundle-LYQRCodeGenerateAndScan-LYQRCodeGenerateAndScan-Info.plist";
@@ -2930,6 +2776,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E048D0107725F2C4CEDF3467BBBD5D4C /* LYQRCodeGenerateAndScan.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3000,15 +2847,6 @@
 			buildConfigurations = (
 				D9A8EB37A89DB1CD3833EDD557131B7F /* Debug */,
 				266D80964ACEF9337CFD1F320680EE2A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E226F019895F9C7FA1D4369699CF35D2 /* Build configuration list for PBXNativeTarget "Pods-LYQRCodeGenerateAndScan_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A0AC39313535393736757E0C1223FA8E /* Debug */,
-				CF67E830747F43E8E9C15EB26068E337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
