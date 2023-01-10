@@ -17,10 +17,31 @@ pod 'LYQRCodeGenerateAndScan', '~> 0.0.3'
 ```
 
 ```
+// 二维码生成事件
+UIImage *resultImg = [LYQRCodeGenerateManager generateNormalQRCodeWithDataString:@"测试" ImageWidth:200];
+
+// 二维码扫描+条形码扫描
+[[LYQRCodeManager sharedManager] startScanWithController:self Delegate:self];
+
+// 二维码扫描+条形码相册识别
+[[LYQRCodeManager sharedManager] startAlumScanWithController:self Delegate:self];
+
+// 回调代理
+-(void)ly_QRCodeScanResultText:(NSString *)resultText{
+    NSLog(@"识别结果 == %@", resultText);
+}
+-(void)ly_QRCodeScanResultFail{
+    NSLog(@"识别失败");
+}
+```
+
+##注意
+```
 如果pod repo update后还pod search不到，可以运行如下命令清下缓存后应该就可以了。
 rm ~/Library/Caches/CocoaPods/search_index.json
 ```
 
+##具体demo代码
 ```
 在使用的控制器中，
     
