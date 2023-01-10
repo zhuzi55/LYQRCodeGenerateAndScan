@@ -20,10 +20,10 @@ pod 'LYQRCodeGenerateAndScan', '~> 0.0.3'
 // 二维码生成事件
 UIImage *resultImg = [LYQRCodeGenerateManager generateNormalQRCodeWithDataString:@"测试" ImageWidth:200];
 
-// 二维码扫描+条形码扫描
+// 二维码、条形码扫描
 [[LYQRCodeManager sharedManager] startScanWithController:self Delegate:self];
 
-// 二维码扫描+条形码相册识别
+// 二维码、条形码相册识别
 [[LYQRCodeManager sharedManager] startAlumScanWithController:self Delegate:self];
 
 // 回调代理
